@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clinical Recovery Analytics Platform — Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#f1f5f9; --panel:#ffffff; --ink:#0f172a; --muted:#64748b;
+    --blue:#2563eb; --teal:#0ea5e9; --green:#16a34a; --amber:#f59e0b;
+    --red:#dc2626; --violet:#7c3aed; --border:#e2e8f0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:"Segoe UI",system-ui,Helvetica,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:1180px;margin:0 auto;padding:24px}
+  header.hero{background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#fff;
+       border-radius:16px;padding:28px 30px;margin-bottom:22px}
+  header.hero h1{margin:0 0 6px;font-size:26px}
+  header.hero p{margin:0;color:#c7d2fe;font-size:14px}
+  .chips{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}
+  .chip{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);
+        padding:4px 10px;border-radius:999px;font-size:12px}
+  h2{font-size:16px;margin:26px 4px 12px;color:#1e293b;border-left:4px solid var(--blue);
+     padding-left:10px}
+  .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+  .kpi{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px 18px;
+       box-shadow:0 1px 3px rgba(15,23,42,.06)}
+  .kpi .val{font-size:28px;font-weight:700}
+  .kpi .lbl{font-size:12px;color:var(--muted);margin-top:2px}
+  .kpi .sub{font-size:11px;color:var(--muted);margin-top:6px}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .grid3{display:grid;grid-template-columns:2fr 1fr;gap:16px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:16px 18px;
+        box-shadow:0 1px 3px rgba(15,23,42,.06)}
+  .card h3{margin:0 0 4px;font-size:14px}
+  .card p.note{margin:0 0 10px;font-size:12px;color:var(--muted)}
+  .chart-box{position:relative;height:280px}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:7px 8px;border-bottom:1px solid var(--border)}
+  th{color:var(--muted);font-weight:600}
+  td.r,th.r{text-align:right}
+  .pill{padding:2px 8px;border-radius:999px;font-size:11px;font-weight:600}
+  .hi{background:#fee2e2;color:#b91c1c}.me{background:#fef3c7;color:#92400e}.lo{background:#dcfce7;color:#166534}
+  img.arch{width:100%;border:1px solid var(--border);border-radius:12px;background:#fff}
+  footer{margin:26px 4px;color:var(--muted);font-size:12px}
+  a{color:var(--blue)}
+  @media(max-width:820px){.grid2,.grid3{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Clinical Recovery Analytics Platform</h1>
+    <p>HL7 v2 → FHIR R4 → PostgreSQL → SQL · Power BI · Machine Learning &nbsp;|&nbsp; Atlas Rehabilitation Network (synthetic data)</p>
+    <div class="chips">
+      <span class="chip">8 clinics</span><span class="chip">4,500 patients</span>
+      <span class="chip">5,467 episodes</span><span class="chip">64,213 appointments</span>
+      <span class="chip">20,790 PROMs</span><span class="chip">FHIR R4</span>
+      <span class="chip">scikit-learn</span><span class="chip">33 tests passing</span>
+    </div>
+  </header>
+
+  <h2>Headline KPIs</h2>
+  <div class="kpis">
+    <div class="kpi"><div class="val" style="color:var(--red)">11.4%</div><div class="lbl">No-show rate</div><div class="sub">target &lt; 10%</div></div>
+    <div class="kpi"><div class="val" style="color:var(--amber)">18.0%</div><div class="lbl">Lost capacity</div><div class="sub">~8,500 clinician-hours/yr</div></div>
+    <div class="kpi"><div class="val" style="color:var(--green)">75.7%</div><div class="lbl">Treatment completion</div><div class="sub">drop-out 24.3%</div></div>
+    <div class="kpi"><div class="val" style="color:var(--teal)">93.9%</div><div class="lbl">Functional MCID achieved</div><div class="sub">pain 6.4 → 2.7 NPRS</div></div>
+    <div class="kpi"><div class="val" style="color:var(--blue)">182</div><div class="lbl">Patients at risk of drop-out</div><div class="sub">67 high · ~1,600 sessions</div></div>
+    <div class="kpi"><div class="val" style="color:var(--violet)">0.66</div><div class="lbl">Drop-out model AUROC</div><div class="sub">top quintile = 41% of drop-outs</div></div>
+  </div>
+
+  <h2>Operational — where capacity is lost</h2>
+  <div class="grid2">
+    <div class="card"><h3>No-show rate by clinic</h3>
+      <p class="note">Resolved appointments (fulfilled + no-show + cancelled).</p>
+      <div class="chart-box"><canvas id="clinicChart"></canvas></div></div>
+    <div class="card"><h3>No-show rate by booking lead time</h3>
+      <p class="note">Slots booked ≥14 days ahead are missed ~55% more often.</p>
+      <div class="chart-box"><canvas id="leadChart"></canvas></div></div>
+  </div>
+
+  <h2>Clinical outcomes</h2>
+  <div class="grid2">
+    <div class="card"><h3>Functional MCID achievement by diagnosis</h3>
+      <p class="note">% reaching the Minimal Clinically Important Difference (target 80%).</p>
+      <div class="chart-box" style="height:340px"><canvas id="mcidChart"></canvas></div></div>
+    <div class="card"><h3>Adherence drives recovery</h3>
+      <p class="note">Mean functional improvement by % of planned sessions attended.</p>
+      <div class="chart-box" style="height:340px"><canvas id="adhChart"></canvas></div></div>
+  </div>
+
+  <h2>Drop-out risk register &amp; predictive models</h2>
+  <div class="grid2">
+    <div class="card"><h3>Active episodes by drop-out risk</h3>
+      <p class="note">From <code>v_dropout_risk</code> (days since last visit + sessions remaining).</p>
+      <div class="chart-box"><canvas id="riskChart"></canvas></div></div>
+    <div class="card"><h3>Predictive model performance (held-out future)</h3>
+      <p class="note">Leakage-safe features, time-based split.</p>
+      <table>
+        <tr><th>Model</th><th class="r">AUROC</th><th class="r">AUPRC</th><th class="r">base rate</th><th class="r">risk lift</th></tr>
+        <tr><td>No-show (gradient boosting)</td><td class="r">0.59</td><td class="r">0.16</td><td class="r">0.12</td><td class="r">×1.5 (top decile)</td></tr>
+        <tr><td>Early drop-out (logistic)</td><td class="r">0.66</td><td class="r">0.47</td><td class="r">0.26</td><td class="r">×1.6 (top quintile)</td></tr>
+      </table>
+      <p class="note" style="margin-top:12px">Top drop-out drivers: early attendance, age, planned course length, payer, baseline disability. Decision support — not automation (see governance).</p>
+    </div>
+  </div>
+
+  <h2>Architecture</h2>
+  <div class="card"><img class="arch" src="assets/architecture.svg" alt="Architecture diagram"></div>
+
+  <h2>How this maps to a real workflow</h2>
+  <div class="card">
+    <table>
+      <tr><th>Layer</th><th>What it does</th><th>In the repo</th></tr>
+      <tr><td>HL7 v2 ingestion</td><td>ADT / SIU / ORU feeds → FHIR R4</td><td><code>/hl7v2</code></td></tr>
+      <tr><td>FHIR R4</td><td>interoperable clinical resources</td><td><code>/fhir</code></td></tr>
+      <tr><td>PostgreSQL</td><td>core + star schema, KPI views</td><td><code>/sql</code></td></tr>
+      <tr><td>Power BI</td><td>executive · clinical · operational dashboards</td><td><code>/powerbi</code></td></tr>
+      <tr><td>Machine learning</td><td>no-show & early drop-out models</td><td><code>/ml</code></td></tr>
+      <tr><td>Walkthrough</td><td>executed end-to-end notebook</td><td><code>/notebooks</code></td></tr>
+      <tr><td>Quality</td><td>33 data-quality + HL7 tests, CI</td><td><code>/tests</code>, <code>.github</code></td></tr>
+    </table>
+  </div>
+
+  <footer>
+    100% synthetic data, reproducible (seed 42). No real patient information.
+    Full write-up in <code>/docs</code> (Phases 1–9). © 2026 — MIT License.
+  </footer>
+</div>
+
+<script>
+const FONT = {family:"Segoe UI, sans-serif"};
+Chart.defaults.font.family = FONT.family;
+const noLegend = {legend:{display:false}};
+
+new Chart(clinicChart, {type:'bar',
+  data:{labels:["Sevilla","Bcn Sants","Málaga","Madrid Norte","Valencia","Bilbao","Madrid Centro","Bcn Eixample"],
+    datasets:[{data:[14.9,13.8,12.4,11.8,10.9,9.8,8.6,8.1],backgroundColor:"#2563eb"}]},
+  options:{maintainAspectRatio:false,plugins:noLegend,
+    scales:{y:{title:{display:true,text:'no-show %'}}}}});
+
+new Chart(leadChart, {type:'bar',
+  data:{labels:["0–2 d","3–7 d","8–13 d","14+ d"],
+    datasets:[{data:[9.9,10.0,11.9,15.3],backgroundColor:["#93c5fd","#60a5fa","#3b82f6","#dc2626"]}]},
+  options:{maintainAspectRatio:false,plugins:noLegend,
+    scales:{y:{title:{display:true,text:'no-show %'}}}}});
+
+new Chart(mcidChart, {type:'bar',
+  data:{labels:["Carpal tunnel","Frozen shoulder","Rotator cuff","Epicondylitis","Hip OA","Sciatica","Knee OA","Low back pain","Cervicalgia","Plantar fasciitis","Ankle sprain","ACL rehab"],
+    datasets:[{data:[78.3,81.6,85.9,89.9,94.4,95.3,96.3,96.8,97.9,99.0,99.2,100.0],
+      backgroundColor:"#0ea5e9"}]},
+  options:{indexAxis:'y',maintainAspectRatio:false,plugins:noLegend,
+    scales:{x:{min:60,max:100,title:{display:true,text:'% reaching MCID'}}}}});
+
+new Chart(adhChart, {type:'bar',
+  data:{labels:["<70%","70–89%","90–100%"],
+    datasets:[{data:[18.9,22.3,24.5],backgroundColor:["#fca5a5","#fcd34d","#16a34a"]}]},
+  options:{maintainAspectRatio:false,plugins:noLegend,
+    scales:{y:{title:{display:true,text:'mean functional improvement'}}}}});
+
+new Chart(riskChart, {type:'doughnut',
+  data:{labels:["Low","Medium","High"],
+    datasets:[{data:[720,115,67],backgroundColor:["#16a34a","#f59e0b","#dc2626"]}]},
+  options:{maintainAspectRatio:false,plugins:{legend:{position:'bottom'}}}});
+</script>
+</body>
+</html>

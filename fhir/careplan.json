@@ -1,0 +1,34 @@
+{
+  "resourceType": "CarePlan",
+  "id": "cp-6001",
+  "status": "active",
+  "intent": "plan",
+  "title": "Rehabilitation plan - Low back pain",
+  "description": "Structured outpatient physiotherapy programme: education, graded exercise and manual therapy.",
+  "subject": { "reference": "Patient/p-1001", "display": "Ana Garcia Lopez" },
+  "period": { "start": "2025-09-08" },
+  "created": "2025-09-08",
+  "author": { "reference": "Practitioner/pr-23", "display": "Paula Fernandez Gil, PT" },
+  "careTeam": [{ "reference": "CareTeam/ct-6001" }],
+  "addresses": [{ "reference": "Condition/cond-7001", "display": "Low back pain, non-specific" }],
+  "goal": [{ "reference": "Goal/goal-6001" }],
+  "activity": [
+    {
+      "detail": {
+        "kind": "ServiceRequest",
+        "code": {
+          "coding": [
+            { "system": "http://snomed.info/sct", "code": "229065009", "display": "Exercise therapy" }
+          ],
+          "text": "Supervised therapeutic exercise"
+        },
+        "status": "in-progress",
+        "scheduledTiming": {
+          "repeat": { "frequency": 2, "period": 1, "periodUnit": "wk", "count": 12 }
+        },
+        "description": "12 planned sessions, twice weekly."
+      }
+    }
+  ],
+  "note": [{ "text": "planned_sessions=12; goal: reduce pain (NPRS<=2) and disability (ODI<20)." }]
+}

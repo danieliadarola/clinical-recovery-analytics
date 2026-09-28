@@ -1,0 +1,35 @@
+{
+  "resourceType": "Encounter",
+  "id": "enc-40001",
+  "status": "finished",
+  "class": {
+    "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "code": "AMB",
+    "display": "ambulatory"
+  },
+  "type": [
+    {
+      "coding": [
+        { "system": "http://snomed.info/sct", "code": "390906007", "display": "Follow-up encounter" }
+      ],
+      "text": "initial-evaluation"
+    }
+  ],
+  "subject": { "reference": "Patient/p-1001", "display": "Ana Garcia Lopez" },
+  "appointment": [{ "reference": "Appointment/appt-50001" }],
+  "participant": [
+    {
+      "individual": { "reference": "Practitioner/pr-23", "display": "Paula Fernandez Gil, PT" },
+      "type": [
+        {
+          "coding": [
+            { "system": "http://terminology.hl7.org/CodeSystem/v3-ParticipationType", "code": "PPRF", "display": "primary performer" }
+          ]
+        }
+      ]
+    }
+  ],
+  "period": { "start": "2025-09-08T09:00:00+02:00", "end": "2025-09-08T09:45:00+02:00" },
+  "reasonReference": [{ "reference": "Condition/cond-7001", "display": "Low back pain, non-specific" }],
+  "serviceProvider": { "reference": "Organization/org-clinic-3", "display": "ARN Barcelona Eixample" }
+}

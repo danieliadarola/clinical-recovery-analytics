@@ -1,0 +1,41 @@
+{
+  "resourceType": "Condition",
+  "id": "cond-7001",
+  "clinicalStatus": {
+    "coding": [
+      { "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active", "display": "Active" }
+    ]
+  },
+  "verificationStatus": {
+    "coding": [
+      { "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status", "code": "confirmed", "display": "Confirmed" }
+    ]
+  },
+  "category": [
+    {
+      "coding": [
+        { "system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "encounter-diagnosis", "display": "Encounter Diagnosis" }
+      ]
+    }
+  ],
+  "code": {
+    "coding": [
+      { "system": "http://snomed.info/sct", "code": "279039007", "display": "Low back pain" },
+      { "system": "http://hl7.org/fhir/sid/icd-10", "code": "M54.5", "display": "Low back pain" }
+    ],
+    "text": "Low back pain, non-specific"
+  },
+  "bodySite": [
+    {
+      "coding": [
+        { "system": "http://snomed.info/sct", "code": "122496007", "display": "Lumbar spine structure" }
+      ],
+      "text": "Lumbar spine"
+    }
+  ],
+  "subject": { "reference": "Patient/p-1001", "display": "Ana Garcia Lopez" },
+  "encounter": { "reference": "Encounter/enc-40001" },
+  "onsetDateTime": "2025-07-20",
+  "recordedDate": "2025-09-08",
+  "recorder": { "reference": "Practitioner/pr-23" }
+}

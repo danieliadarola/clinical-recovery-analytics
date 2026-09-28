@@ -1,0 +1,13 @@
+icd10_code,snomed_code,diagnosis_name,body_site,primary_instrument,body_region
+M72.2,202882003,Plantar fasciitis,Foot,LEFS,Lower limb
+M54.2,81680005,Cervicalgia (neck pain),Cervical spine,NDI,Spine
+S93.4,44465007,Lateral ankle sprain,Ankle,LEFS,Lower limb
+M16.9,239872002,Hip osteoarthritis,Hip,LEFS,Lower limb
+M54.5,279039007,"Low back pain, non-specific",Lumbar spine,ODI,Spine
+M17.9,239873007,Knee osteoarthritis,Knee,LEFS,Lower limb
+M75.1,45780003,Rotator cuff / shoulder impingement,Shoulder,QuickDASH,Upper limb
+M54.3,23056005,Lumbar radiculopathy (sciatica),Lumbar spine,ODI,Spine
+Z47.89,239201008,ACL reconstruction rehabilitation,Knee,LEFS,Lower limb
+G56.0,57406009,Carpal tunnel syndrome (conservative),Wrist,QuickDASH,Upper limb
+M77.1,202855006,Lateral epicondylitis (tennis elbow),Elbow,QuickDASH,Upper limb
+M75.0,399114009,Adhesive capsulitis (frozen shoulder),Shoulder,QuickDASH,Upper limb

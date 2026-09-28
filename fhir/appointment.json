@@ -1,0 +1,51 @@
+{
+  "resourceType": "Appointment",
+  "id": "appt-50001",
+  "status": "fulfilled",
+  "serviceCategory": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/service-category",
+          "code": "20",
+          "display": "Physiotherapy / Rehabilitation"
+        }
+      ]
+    }
+  ],
+  "serviceType": [
+    {
+      "coding": [
+        { "system": "http://snomed.info/sct", "code": "91251008", "display": "Physical therapy procedure" }
+      ]
+    }
+  ],
+  "appointmentType": {
+    "coding": [
+      { "system": "http://terminology.hl7.org/CodeSystem/v2-0276", "code": "ROUTINE", "display": "Routine appointment" }
+    ]
+  },
+  "description": "Initial physiotherapy evaluation - low back pain",
+  "start": "2025-09-08T09:00:00+02:00",
+  "end": "2025-09-08T09:45:00+02:00",
+  "minutesDuration": 45,
+  "created": "2025-09-03",
+  "comment": "First session of the rehabilitation episode.",
+  "basedOn": [{ "reference": "CarePlan/cp-6001" }],
+  "participant": [
+    {
+      "actor": { "reference": "Patient/p-1001", "display": "Ana Garcia Lopez" },
+      "required": "required",
+      "status": "accepted"
+    },
+    {
+      "actor": { "reference": "Practitioner/pr-23", "display": "Paula Fernandez Gil, PT" },
+      "required": "required",
+      "status": "accepted"
+    },
+    {
+      "actor": { "reference": "Location/loc-clinic-3", "display": "ARN Barcelona Eixample" },
+      "status": "accepted"
+    }
+  ]
+}

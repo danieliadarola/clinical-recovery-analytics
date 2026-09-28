@@ -1,0 +1,114 @@
+practitioner_id,license_number,given_name,family_name,gender,specialty,seniority,clinic_id,active
+1,COL-10001,Francisco,Rodriguez Perez,male,Orthopaedic / post-surgical,Lead,1,true
+2,COL-10002,Paula,Ramos Garcia,female,Sports physiotherapy,Lead,1,true
+3,COL-10003,Marta,Garcia Gomez,female,Orthopaedic / post-surgical,Senior,1,true
+4,COL-10004,Elena,Sanchez Moreno,female,Geriatric physiotherapy,Lead,1,true
+5,COL-10005,Sara,Vazquez Sanchez,female,Neurological physiotherapy,Senior,1,true
+6,COL-10006,Javier,Serrano Fernandez,male,Orthopaedic / post-surgical,Junior,1,true
+7,COL-10007,Manuel,Rodriguez Sanchez,male,Musculoskeletal physiotherapy,Senior,1,true
+8,COL-10008,Marta,Ortega Castro,female,Musculoskeletal physiotherapy,Junior,1,true
+9,COL-10009,Sara,Alvarez Gonzalez,female,Neurological physiotherapy,Lead,1,true
+10,COL-10010,Rocio,Martinez Diaz,female,Sports physiotherapy,Junior,1,true
+11,COL-10011,Ivan,Diaz Fernandez,male,Orthopaedic / post-surgical,Senior,1,true
+12,COL-10012,Andrea,Vazquez Vazquez,female,Musculoskeletal physiotherapy,Lead,1,true
+13,COL-10013,Javier,Rodriguez Perez,male,Sports physiotherapy,Junior,1,true
+14,COL-10014,Nuria,Romero Ramos,female,Musculoskeletal physiotherapy,Senior,1,true
+15,COL-10015,Marta,Vazquez Garcia,female,Orthopaedic / post-surgical,Junior,1,true
+16,COL-10016,Manuel,Ruiz Romero,male,Musculoskeletal physiotherapy,Junior,1,true
+17,COL-10017,Paula,Gomez Gil,female,Neurological physiotherapy,Senior,2,true
+18,COL-10018,Laura,Vazquez Gil,female,Neurological physiotherapy,Lead,2,true
+19,COL-10019,Alba,Moreno Ruiz,female,Musculoskeletal physiotherapy,Junior,2,true
+20,COL-10020,Carmen,Vazquez Perez,female,Musculoskeletal physiotherapy,Senior,2,true
+21,COL-10021,Paula,Ramos Romero,female,Neurological physiotherapy,Lead,2,true
+22,COL-10022,Nuria,Castro Moreno,female,Sports physiotherapy,Lead,2,true
+23,COL-10023,Carmen,Diaz Garcia,female,Sports physiotherapy,Junior,2,true
+24,COL-10024,Carmen,Martinez Diaz,female,Musculoskeletal physiotherapy,Junior,2,true
+25,COL-10025,Paula,Perez Serrano,female,Sports physiotherapy,Junior,2,true
+26,COL-10026,Elena,Moreno Romero,female,Sports physiotherapy,Junior,2,true
+27,COL-10027,Manuel,Martinez Alvarez,male,Orthopaedic / post-surgical,Junior,2,true
+28,COL-10028,Marta,Torres Rodriguez,female,Geriatric physiotherapy,Junior,2,true
+29,COL-10029,Jesus,Sanchez Martinez,male,Orthopaedic / post-surgical,Lead,2,true
+30,COL-10030,Jose,Romero Navarro,male,Sports physiotherapy,Senior,2,true
+31,COL-10031,Maria,Alvarez Gonzalez,female,Neurological physiotherapy,Senior,2,true
+32,COL-10032,Miguel,Navarro Perez,male,Musculoskeletal physiotherapy,Junior,2,true
+33,COL-10033,Pablo,Diaz Martinez,male,Musculoskeletal physiotherapy,Senior,3,true
+34,COL-10034,Manuel,Gomez Lopez,male,Sports physiotherapy,Junior,3,true
+35,COL-10035,Alejandro,Rodriguez Serrano,male,Sports physiotherapy,Lead,3,true
+36,COL-10036,Marta,Fernandez Ortega,female,Orthopaedic / post-surgical,Junior,3,true
+37,COL-10037,Nuria,Ruiz Torres,female,Musculoskeletal physiotherapy,Junior,3,true
+38,COL-10038,Paula,Fernandez Gil,female,Musculoskeletal physiotherapy,Senior,3,true
+39,COL-10039,Javier,Ruiz Gomez,male,Sports physiotherapy,Lead,3,true
+40,COL-10040,Antonio,Ortega Vazquez,male,Musculoskeletal physiotherapy,Junior,3,true
+41,COL-10041,Carmen,Sanchez Vazquez,female,Musculoskeletal physiotherapy,Senior,3,true
+42,COL-10042,David,Gil Navarro,male,Musculoskeletal physiotherapy,Junior,3,true
+43,COL-10043,Marta,Martinez Garcia,female,Musculoskeletal physiotherapy,Junior,3,true
+44,COL-10044,Jesus,Garcia Sanchez,male,Musculoskeletal physiotherapy,Junior,4,true
+45,COL-10045,Alejandro,Vazquez Perez,male,Sports physiotherapy,Junior,4,true
+46,COL-10046,Ivan,Moreno Fernandez,male,Orthopaedic / post-surgical,Junior,4,true
+47,COL-10047,Adrian,Romero Ramos,male,Orthopaedic / post-surgical,Junior,4,true
+48,COL-10048,Antonio,Gomez Diaz,male,Geriatric physiotherapy,Senior,4,true
+49,COL-10049,Sergio,Rodriguez Gonzalez,male,Musculoskeletal physiotherapy,Junior,4,true
+50,COL-10050,Alba,Torres Moreno,female,Musculoskeletal physiotherapy,Junior,4,true
+51,COL-10051,Daniel,Diaz Gonzalez,male,Geriatric physiotherapy,Senior,4,true
+52,COL-10052,Javier,Garcia Sanchez,male,Geriatric physiotherapy,Senior,4,true
+53,COL-10053,David,Martinez Sanchez,male,Sports physiotherapy,Senior,4,true
+54,COL-10054,Elena,Serrano Fernandez,female,Musculoskeletal physiotherapy,Senior,4,true
+55,COL-10055,Alba,Vazquez Ortega,female,Orthopaedic / post-surgical,Junior,4,true
+56,COL-10056,Lucia,Ortega Sanchez,female,Orthopaedic / post-surgical,Senior,4,true
+57,COL-10057,Javier,Alvarez Ruiz,male,Sports physiotherapy,Junior,4,true
+58,COL-10058,Alejandro,Serrano Ruiz,male,Sports physiotherapy,Junior,4,true
+59,COL-10059,Beatriz,Serrano Ramos,female,Orthopaedic / post-surgical,Senior,4,true
+60,COL-10060,Sergio,Gomez Ortega,male,Musculoskeletal physiotherapy,Lead,5,true
+61,COL-10061,Manuel,Rodriguez Ortega,male,Musculoskeletal physiotherapy,Junior,5,true
+62,COL-10062,Sergio,Lopez Torres,male,Sports physiotherapy,Lead,5,true
+63,COL-10063,Carlos,Alvarez Rodriguez,male,Musculoskeletal physiotherapy,Junior,5,true
+64,COL-10064,Francisco,Gomez Gil,male,Sports physiotherapy,Lead,5,true
+65,COL-10065,Carlos,Perez Torres,male,Orthopaedic / post-surgical,Lead,5,true
+66,COL-10066,Pablo,Gil Romero,male,Geriatric physiotherapy,Lead,5,true
+67,COL-10067,Rocio,Navarro Torres,female,Musculoskeletal physiotherapy,Junior,5,true
+68,COL-10068,Ana,Gonzalez Torres,female,Musculoskeletal physiotherapy,Senior,5,true
+69,COL-10069,Alba,Vazquez Lopez,female,Musculoskeletal physiotherapy,Junior,5,true
+70,COL-10070,Lucia,Vazquez Torres,female,Sports physiotherapy,Junior,5,true
+71,COL-10071,Beatriz,Serrano Garcia,female,Geriatric physiotherapy,Lead,5,true
+72,COL-10072,Adrian,Romero Vazquez,male,Orthopaedic / post-surgical,Lead,5,true
+73,COL-10073,Carlos,Rodriguez Gonzalez,male,Sports physiotherapy,Junior,5,true
+74,COL-10074,Adrian,Torres Perez,male,Neurological physiotherapy,Lead,5,true
+75,COL-10075,Miguel,Garcia Lopez,male,Orthopaedic / post-surgical,Junior,6,true
+76,COL-10076,Sara,Diaz Diaz,female,Orthopaedic / post-surgical,Senior,6,true
+77,COL-10077,Daniel,Gonzalez Lopez,male,Sports physiotherapy,Lead,6,true
+78,COL-10078,Nuria,Martinez Garcia,female,Neurological physiotherapy,Junior,6,true
+79,COL-10079,Francisco,Perez Navarro,male,Orthopaedic / post-surgical,Lead,6,true
+80,COL-10080,Cristina,Ramos Sanchez,female,Orthopaedic / post-surgical,Junior,6,true
+81,COL-10081,Maria,Ruiz Serrano,female,Orthopaedic / post-surgical,Senior,6,true
+82,COL-10082,Miguel,Rodriguez Sanchez,male,Orthopaedic / post-surgical,Senior,6,true
+83,COL-10083,Manuel,Serrano Martinez,male,Musculoskeletal physiotherapy,Senior,6,true
+84,COL-10084,Elena,Navarro Sanchez,female,Sports physiotherapy,Senior,6,true
+85,COL-10085,Pablo,Perez Romero,male,Musculoskeletal physiotherapy,Lead,6,true
+86,COL-10086,Rocio,Serrano Gonzalez,female,Musculoskeletal physiotherapy,Junior,7,true
+87,COL-10087,Alba,Torres Rodriguez,female,Orthopaedic / post-surgical,Lead,7,true
+88,COL-10088,Jose,Navarro Fernandez,male,Musculoskeletal physiotherapy,Senior,7,true
+89,COL-10089,Pablo,Gonzalez Vazquez,male,Musculoskeletal physiotherapy,Junior,7,true
+90,COL-10090,Pablo,Navarro Castro,male,Orthopaedic / post-surgical,Senior,7,true
+91,COL-10091,Ana,Alvarez Rodriguez,female,Musculoskeletal physiotherapy,Lead,7,true
+92,COL-10092,Jesus,Diaz Moreno,other,Orthopaedic / post-surgical,Senior,7,true
+93,COL-10093,Andrea,Fernandez Diaz,female,Musculoskeletal physiotherapy,Lead,7,true
+94,COL-10094,David,Serrano Gil,male,Sports physiotherapy,Junior,7,true
+95,COL-10095,Lucia,Gomez Ruiz,female,Musculoskeletal physiotherapy,Lead,7,true
+96,COL-10096,Laura,Castro Navarro,female,Musculoskeletal physiotherapy,Junior,7,true
+97,COL-10097,Sara,Diaz Gomez,female,Neurological physiotherapy,Senior,7,true
+98,COL-10098,Carmen,Serrano Castro,female,Orthopaedic / post-surgical,Junior,7,true
+99,COL-10099,David,Lopez Rodriguez,male,Musculoskeletal physiotherapy,Senior,7,true
+100,COL-10100,Sara,Torres Ruiz,female,Geriatric physiotherapy,Senior,7,true
+101,COL-10101,Andrea,Sanchez Fernandez,female,Orthopaedic / post-surgical,Senior,8,true
+102,COL-10102,Maria,Romero Torres,female,Orthopaedic / post-surgical,Senior,8,true
+103,COL-10103,Andrea,Ruiz Torres,female,Musculoskeletal physiotherapy,Junior,8,true
+104,COL-10104,Ivan,Fernandez Romero,male,Musculoskeletal physiotherapy,Junior,8,true
+105,COL-10105,Adrian,Perez Lopez,male,Musculoskeletal physiotherapy,Senior,8,true
+106,COL-10106,Sara,Ruiz Alvarez,female,Neurological physiotherapy,Lead,8,true
+107,COL-10107,Cristina,Martinez Romero,female,Orthopaedic / post-surgical,Lead,8,true
+108,COL-10108,Alejandro,Serrano Garcia,male,Neurological physiotherapy,Senior,8,true
+109,COL-10109,Jose,Navarro Gil,male,Orthopaedic / post-surgical,Senior,8,true
+110,COL-10110,Carmen,Navarro Moreno,female,Sports physiotherapy,Senior,8,true
+111,COL-10111,Javier,Romero Navarro,male,Musculoskeletal physiotherapy,Senior,8,true
+112,COL-10112,Lucia,Sanchez Alvarez,female,Geriatric physiotherapy,Junior,8,true
+113,COL-10113,Daniel,Martinez Fernandez,male,Sports physiotherapy,Lead,8,true

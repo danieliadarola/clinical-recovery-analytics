@@ -1,0 +1,9 @@
+clinic_id,clinic_name,city,region,postal_code
+1,ARN Madrid Centro,Madrid,Comunidad de Madrid,28013
+2,ARN Madrid Norte,Madrid,Comunidad de Madrid,28036
+3,ARN Barcelona Eixample,Barcelona,Cataluna,08009
+4,ARN Barcelona Sants,Barcelona,Cataluna,08014
+5,ARN Valencia,Valencia,Comunidad Valenciana,46004
+6,ARN Sevilla,Sevilla,Andalucia,41001
+7,ARN Bilbao,Bilbao,Pais Vasco,48001
+8,ARN Malaga,Malaga,Andalucia,29015

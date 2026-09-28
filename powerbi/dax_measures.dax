@@ -1,0 +1,159 @@
+// =============================================================================
+// Clinical Recovery Analytics Platform — DAX measures
+// Model: import the gold-layer views as tables:
+//   fact_appointment, fact_encounter, fact_outcome,
+//   dim_date, dim_clinic, dim_practitioner, dim_patient, dim_diagnosis
+// Relationships (single direction, 1->*):
+//   dim_date[date_key]        -> fact_appointment[scheduled_date]   (active)
+//   dim_date[date_key]        -> fact_outcome[episode_start]
+//   dim_clinic[clinic_id]     -> fact_appointment / fact_outcome / fact_encounter
+//   dim_practitioner[practitioner_id] -> fact_*
+//   dim_patient[patient_id]   -> fact_*
+//   dim_diagnosis[icd10_code] -> fact_outcome[icd10_code]
+// Create a measures table 'Measures' to hold these.
+// =============================================================================
+
+// ----------------------------------------------------------------------------
+// OPERATIONAL — capacity, no-shows, cancellations
+// ----------------------------------------------------------------------------
+Resolved Appointments :=
+    CALCULATE ( COUNTROWS ( fact_appointment ),
+        fact_appointment[is_resolved] = 1 )
+
+Attended Appointments :=
+    CALCULATE ( COUNTROWS ( fact_appointment ),
+        fact_appointment[is_attended] = 1 )
+
+No-Shows :=
+    CALCULATE ( COUNTROWS ( fact_appointment ),
+        fact_appointment[is_noshow] = 1 )
+
+Cancellations :=
+    CALCULATE ( COUNTROWS ( fact_appointment ),
+        fact_appointment[is_cancelled] = 1 )
+
+No-Show Rate % :=
+    DIVIDE ( [No-Shows], [Resolved Appointments] )
+
+Cancellation Rate % :=
+    DIVIDE ( [Cancellations], [Resolved Appointments] )
+
+Lost Capacity % :=
+    DIVIDE ( [No-Shows] + [Cancellations], [Resolved Appointments] )
+
+// Estimated clinician hours lost (45-min slots) — turns the rate into money/time
+Clinician Hours Lost :=
+    ( [No-Shows] + [Cancellations] ) * 0.75
+
+// ----------------------------------------------------------------------------
+// TIME INTELLIGENCE (require dim_date marked as the date table)
+// ----------------------------------------------------------------------------
+No-Show Rate % PM :=
+    CALCULATE ( [No-Show Rate %], DATEADD ( dim_date[date_key], -1, MONTH ) )
+
+No-Show Rate % MoM :=
+    [No-Show Rate %] - [No-Show Rate % PM]
+
+No-Show Rate % Rolling 3M :=
+    CALCULATE (
+        [No-Show Rate %],
+        DATESINPERIOD ( dim_date[date_key], MAX ( dim_date[date_key] ), -3, MONTH )
+    )
+
+Episodes YTD :=
+    TOTALYTD ( [Episodes], dim_date[date_key] )
+
+// ----------------------------------------------------------------------------
+// CLINICAL — episodes, completion, drop-out, adherence
+// ----------------------------------------------------------------------------
+Episodes :=
+    COUNTROWS ( fact_outcome )
+
+Completed Episodes :=
+    CALCULATE ( [Episodes], fact_outcome[episode_status] = "completed" )
+
+Active Episodes :=
+    CALCULATE ( [Episodes], fact_outcome[episode_status] = "active" )
+
+Drop-outs :=
+    CALCULATE ( [Episodes], fact_outcome[episode_status] = "revoked" )
+
+Closed Episodes :=
+    [Completed Episodes] + [Drop-outs]
+
+Completion Rate % :=
+    DIVIDE ( [Completed Episodes], [Closed Episodes] )
+
+Drop-out Rate % :=
+    DIVIDE ( [Drop-outs], [Closed Episodes] )
+
+Mean Adherence % :=
+    CALCULATE (
+        AVERAGE ( fact_outcome[adherence_ratio] ),
+        fact_outcome[episode_status] IN { "completed", "revoked" }
+    )
+
+% Adherent Episodes :=
+VAR Closed =
+    CALCULATE ( [Episodes], fact_outcome[episode_status] IN { "completed", "revoked" } )
+VAR Adherent =
+    CALCULATE ( [Episodes],
+        fact_outcome[episode_status] IN { "completed", "revoked" },
+        fact_outcome[adherence_ratio] >= 0.8 )
+RETURN
+    DIVIDE ( Adherent, Closed )
+
+// ----------------------------------------------------------------------------
+// CLINICAL — outcomes & MCID (the recovery story)
+// ----------------------------------------------------------------------------
+Episodes with Outcome :=
+    CALCULATE ( [Episodes], NOT ISBLANK ( fact_outcome[func_discharge] ) )
+
+Func MCID Achievement % :=
+    DIVIDE (
+        CALCULATE ( [Episodes], fact_outcome[func_mcid_achieved] = 1 ),
+        [Episodes with Outcome]
+    )
+
+Pain MCID Achievement % :=
+    DIVIDE (
+        CALCULATE ( [Episodes], fact_outcome[pain_mcid_achieved] = 1 ),
+        CALCULATE ( [Episodes], NOT ISBLANK ( fact_outcome[pain_discharge] ) )
+    )
+
+Mean Disability Reduction :=
+    AVERAGE ( fact_outcome[func_improvement] )
+
+Mean Pain Reduction :=
+    AVERAGE ( fact_outcome[pain_improvement] )
+
+Mean Time to Discharge :=
+    CALCULATE (
+        AVERAGEX ( fact_outcome,
+            DATEDIFF ( fact_outcome[episode_start], fact_outcome[discharge_date], DAY ) ),
+        NOT ISBLANK ( fact_outcome[discharge_date] )
+    )
+
+// ----------------------------------------------------------------------------
+// OPERATIONAL — drop-out risk register (from v_dropout_risk imported as table)
+// ----------------------------------------------------------------------------
+Patients At Risk :=
+    CALCULATE ( COUNTROWS ( v_dropout_risk ),
+        v_dropout_risk[dropout_risk] IN { "High", "Medium" } )
+
+High Risk Patients :=
+    CALCULATE ( COUNTROWS ( v_dropout_risk ),
+        v_dropout_risk[dropout_risk] = "High" )
+
+Sessions At Risk :=
+    CALCULATE ( SUM ( v_dropout_risk[remaining_sessions] ),
+        v_dropout_risk[dropout_risk] IN { "High", "Medium" } )
+
+// ----------------------------------------------------------------------------
+// KPI conditional formatting helper (RAG vs target)
+// ----------------------------------------------------------------------------
+No-Show RAG :=
+    SWITCH ( TRUE (),
+        [No-Show Rate %] <= 0.10, "Green",
+        [No-Show Rate %] <= 0.15, "Amber",
+        "Red" )

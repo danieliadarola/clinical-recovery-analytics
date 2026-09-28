@@ -1,0 +1,89 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "task": "early drop-out prediction (binary)",
+  "design": "early warning \u2014 intake + first-3-session features only (no leakage)",
+  "split": "time-based at 2025-10-01",
+  "n_train": 1981,
+  "n_test": 2582,
+  "operating_threshold": 0.4,
+  "metrics_gradient_boosting": {
+    "n": 2582,
+    "positive_rate": 0.2637,
+    "threshold": 0.4,
+    "auroc": 0.628,
+    "auprc": 0.4345,
+    "auprc_lift_vs_base": 1.65,
+    "brier": 0.1916,
+    "precision": 0.4641,
+    "recall": 0.2276,
+    "f1": 0.3054
+  },
+  "metrics_logistic_baseline": {
+    "n": 2582,
+    "positive_rate": 0.2637,
+    "threshold": 0.4,
+    "auroc": 0.6567,
+    "auprc": 0.4683,
+    "auprc_lift_vs_base": 1.78,
+    "brier": 0.1765,
+    "precision": 0.6842,
+    "recall": 0.1336,
+    "f1": 0.2236
+  },
+  "top_quintile_dropout_rate": 0.4128,
+  "top_quintile_lift": 1.57,
+  "permutation_importance_auroc_drop": [
+    [
+      "early_appts",
+      0.0377
+    ],
+    [
+      "age",
+      0.0282
+    ],
+    [
+      "planned_sessions",
+      0.0238
+    ],
+    [
+      "insurance_type",
+      0.0109
+    ],
+    [
+      "baseline_func",
+      0.0075
+    ],
+    [
+      "clinic_id",
+      0.0053
+    ],
+    [
+      "baseline_pain",
+      0.003
+    ],
+    [
+      "icd10_code",
+      0.0022
+    ],
+    [
+      "early_attend_rate",
+      0.0019
+    ],
+    [
+      "early_noshows",
+      0.0015
+    ],
+    [
+      "early_cancels",
+      -0.0004
+    ],
+    [
+      "gender",
+      -0.0013
+    ],
+    [
+      "early_mean_lead",
+      -0.0016
+    ]
+  ]
+}

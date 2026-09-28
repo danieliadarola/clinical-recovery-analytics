@@ -1,0 +1,6 @@
+MSH|^~\&|ARN_EHR|ARN|ANALYTICS|ARN|20250908092000||ORU^R01^ORU_R01|MSG00003|P|2.5
+PID|1||ARN101001^^^ARN^MR||Garcia Lopez^Ana||19790412|F
+PV1|1|O|EIXAMPLE^^^ARN
+OBR|1||OBS90001|PROM^Patient-reported outcome panel^L|||20250908092000
+OBX|1|NM|72514-3^Pain severity - 0-10 verbal numeric rating^LN||7|{score}|||||F|||20250908092000
+OBX|2|NM|77564-3^Oswestry Disability Index total score^LN||44|%|||||F|||20250908092000

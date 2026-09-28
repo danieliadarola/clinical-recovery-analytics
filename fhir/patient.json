@@ -1,0 +1,33 @@
+{
+  "resourceType": "Patient",
+  "id": "p-1001",
+  "meta": {
+    "profile": ["http://hl7.org/fhir/StructureDefinition/Patient"]
+  },
+  "identifier": [
+    {
+      "use": "usual",
+      "system": "http://atlas-rehab.example.org/mrn",
+      "value": "ARN101001"
+    }
+  ],
+  "active": true,
+  "name": [
+    { "use": "official", "family": "Garcia Lopez", "given": ["Ana"] }
+  ],
+  "telecom": [
+    { "system": "phone", "value": "+34 600 000 001", "use": "mobile" },
+    { "system": "email", "value": "ana.garcia@example.org" }
+  ],
+  "gender": "female",
+  "birthDate": "1979-04-12",
+  "address": [
+    {
+      "use": "home",
+      "city": "Barcelona",
+      "postalCode": "08009",
+      "country": "ES"
+    }
+  ],
+  "managingOrganization": { "reference": "Organization/org-clinic-3", "display": "ARN Barcelona Eixample" }
+}

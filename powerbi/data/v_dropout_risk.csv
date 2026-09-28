@@ -1,0 +1,903 @@
+care_plan_id,mrn,clinic,diagnosis,practitioner_name,planned_sessions,attended_sessions,remaining_sessions,last_visit_date,days_since_last_visit,dropout_risk
+6,ARN100005,ARN Valencia,"Low back pain, non-specific",Beatriz Serrano Garcia,13,6,7,2026-06-09,5,Low
+10,ARN100008,ARN Bilbao,Rotator cuff / shoulder impingement,Andrea Fernandez Diaz,17,4,13,2026-06-01,13,Low
+11,ARN100009,ARN Bilbao,Lateral ankle sprain,Laura Castro Navarro,10,4,6,2026-06-14,0,Low
+16,ARN100012,ARN Malaga,Lateral epicondylitis (tennis elbow),Carmen Navarro Moreno,6,3,3,2026-06-12,2,Low
+22,ARN100017,ARN Barcelona Eixample,Cervicalgia (neck pain),David Gil Navarro,13,5,8,2026-06-12,2,Low
+24,ARN100019,ARN Sevilla,Rotator cuff / shoulder impingement,Manuel Serrano Martinez,13,3,10,2026-06-11,3,Low
+37,ARN100029,ARN Malaga,Cervicalgia (neck pain),Carmen Navarro Moreno,6,2,4,2026-06-09,5,Low
+48,ARN100037,ARN Madrid Centro,Knee osteoarthritis,Francisco Rodriguez Perez,9,5,4,2026-06-04,10,Low
+49,ARN100037,ARN Madrid Centro,"Low back pain, non-specific",Elena Sanchez Moreno,15,5,10,2026-05-21,24,Medium
+75,ARN100057,ARN Madrid Centro,Lateral ankle sprain,Sara Alvarez Gonzalez,11,5,6,2026-06-03,11,Low
+80,ARN100061,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Miguel Garcia Lopez,21,4,17,2026-06-14,0,Low
+87,ARN100068,ARN Barcelona Eixample,Carpal tunnel syndrome (conservative),Marta Martinez Garcia,8,2,6,2026-05-24,21,Medium
+88,ARN100069,ARN Sevilla,ACL reconstruction rehabilitation,Pablo Perez Romero,28,3,25,2026-06-13,1,Low
+89,ARN100070,ARN Barcelona Sants,Cervicalgia (neck pain),Ivan Moreno Fernandez,7,1,6,2026-06-04,10,Low
+99,ARN100078,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Antonio Gomez Diaz,19,3,16,2026-06-14,0,Low
+106,ARN100085,ARN Valencia,Adhesive capsulitis (frozen shoulder),Manuel Rodriguez Ortega,22,3,19,2026-06-13,1,Low
+109,ARN100088,ARN Sevilla,Rotator cuff / shoulder impingement,Miguel Garcia Lopez,17,6,11,2026-06-11,3,Low
+114,ARN100092,ARN Barcelona Sants,Hip osteoarthritis,Daniel Diaz Gonzalez,16,10,6,2026-06-04,10,Low
+139,ARN100111,ARN Bilbao,Rotator cuff / shoulder impingement,Jesus Diaz Moreno,12,3,9,2026-06-06,8,Low
+140,ARN100112,ARN Madrid Norte,Hip osteoarthritis,Maria Alvarez Gonzalez,14,3,11,2026-06-09,5,Low
+145,ARN100116,ARN Malaga,ACL reconstruction rehabilitation,Daniel Martinez Fernandez,28,4,24,2026-06-12,2,Low
+148,ARN100119,ARN Bilbao,Rotator cuff / shoulder impingement,Sara Torres Ruiz,14,5,9,2026-06-12,2,Low
+152,ARN100123,ARN Barcelona Eixample,Knee osteoarthritis,Pablo Diaz Martinez,13,2,11,2026-06-09,5,Low
+154,ARN100125,ARN Madrid Centro,Knee osteoarthritis,Elena Sanchez Moreno,10,4,6,2026-05-23,22,Medium
+160,ARN100129,ARN Bilbao,"Low back pain, non-specific",Pablo Navarro Castro,15,5,10,2026-06-13,1,Low
+161,ARN100129,ARN Bilbao,Lumbar radiculopathy (sciatica),Sara Diaz Gomez,15,5,10,2026-06-01,13,Low
+167,ARN100134,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Carmen Diaz Garcia,15,3,12,2026-06-09,5,Low
+172,ARN100138,ARN Barcelona Sants,"Low back pain, non-specific",Alejandro Vazquez Perez,13,3,10,2026-06-08,6,Low
+180,ARN100145,ARN Bilbao,Hip osteoarthritis,Lucia Gomez Ruiz,15,5,10,2026-06-11,3,Low
+188,ARN100150,ARN Madrid Norte,Hip osteoarthritis,Carmen Martinez Diaz,13,4,9,2026-06-13,1,Low
+189,ARN100151,ARN Barcelona Sants,"Low back pain, non-specific",David Martinez Sanchez,14,8,6,2026-06-08,6,Low
+197,ARN100159,ARN Madrid Norte,"Low back pain, non-specific",Carmen Diaz Garcia,9,4,5,2026-06-08,6,Low
+201,ARN100162,ARN Barcelona Sants,Cervicalgia (neck pain),Lucia Ortega Sanchez,10,7,3,2026-06-13,1,Low
+204,ARN100164,ARN Barcelona Eixample,Lateral ankle sprain,David Gil Navarro,9,4,5,2026-06-06,8,Low
+208,ARN100167,ARN Valencia,Lumbar radiculopathy (sciatica),Manuel Rodriguez Ortega,16,12,4,2026-06-14,0,Low
+209,ARN100168,ARN Barcelona Eixample,Knee osteoarthritis,Manuel Gomez Lopez,16,5,11,2026-05-10,35,High
+219,ARN100176,ARN Valencia,Knee osteoarthritis,Carlos Perez Torres,16,3,13,2026-05-01,44,High
+225,ARN100179,ARN Madrid Centro,Cervicalgia (neck pain),Nuria Romero Ramos,14,5,9,2026-06-13,1,Low
+227,ARN100181,ARN Malaga,"Low back pain, non-specific",Sara Ruiz Alvarez,9,4,5,2026-05-25,20,Medium
+228,ARN100182,ARN Madrid Centro,Cervicalgia (neck pain),Ivan Diaz Fernandez,13,5,8,2026-06-12,2,Low
+232,ARN100186,ARN Valencia,"Low back pain, non-specific",Adrian Romero Vazquez,14,3,11,2026-06-12,2,Low
+239,ARN100193,ARN Madrid Norte,Cervicalgia (neck pain),Paula Gomez Gil,6,2,4,2026-06-09,5,Low
+240,ARN100194,ARN Barcelona Sants,Hip osteoarthritis,Ivan Moreno Fernandez,8,5,3,2026-06-08,6,Low
+242,ARN100196,ARN Barcelona Sants,"Low back pain, non-specific",Alejandro Serrano Ruiz,9,3,6,2026-06-09,5,Low
+244,ARN100198,ARN Bilbao,"Low back pain, non-specific",Ana Alvarez Rodriguez,16,6,10,2026-06-07,7,Low
+252,ARN100206,ARN Madrid Centro,"Low back pain, non-specific",Francisco Rodriguez Perez,13,5,8,2026-05-29,16,Medium
+256,ARN100208,ARN Madrid Norte,Cervicalgia (neck pain),Jose Romero Navarro,13,3,10,2026-06-13,1,Low
+257,ARN100209,ARN Barcelona Sants,Knee osteoarthritis,Sergio Rodriguez Gonzalez,12,6,6,2026-06-14,0,Low
+268,ARN100219,ARN Madrid Centro,Rotator cuff / shoulder impingement,Manuel Ruiz Romero,9,3,6,2026-06-13,1,Low
+271,ARN100222,ARN Madrid Norte,"Low back pain, non-specific",Laura Vazquez Gil,10,3,7,2026-05-13,32,High
+276,ARN100227,ARN Sevilla,Lateral ankle sprain,Cristina Ramos Sanchez,11,4,7,2026-06-03,11,Low
+278,ARN100229,ARN Sevilla,Knee osteoarthritis,Cristina Ramos Sanchez,17,5,12,2026-06-13,1,Low
+280,ARN100231,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Javier Ruiz Gomez,13,8,5,2026-06-11,3,Low
+287,ARN100237,ARN Barcelona Sants,Cervicalgia (neck pain),Ivan Moreno Fernandez,13,7,6,2026-06-12,2,Low
+289,ARN100238,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Alejandro Rodriguez Serrano,19,6,13,2026-06-08,6,Low
+297,ARN100246,ARN Sevilla,"Low back pain, non-specific",Maria Ruiz Serrano,12,5,7,2026-06-10,4,Low
+298,ARN100247,ARN Valencia,"Low back pain, non-specific",Adrian Torres Perez,13,4,9,2026-06-13,1,Low
+299,ARN100248,ARN Bilbao,Adhesive capsulitis (frozen shoulder),Pablo Navarro Castro,18,6,12,2026-05-15,30,High
+303,ARN100252,ARN Barcelona Eixample,"Low back pain, non-specific",Pablo Diaz Martinez,11,5,6,2026-06-09,5,Low
+304,ARN100252,ARN Barcelona Eixample,Plantar fasciitis,David Gil Navarro,11,4,7,2026-06-14,0,Low
+308,ARN100256,ARN Barcelona Eixample,"Low back pain, non-specific",Antonio Ortega Vazquez,13,3,10,2026-06-08,6,Low
+312,ARN100260,ARN Barcelona Eixample,Knee osteoarthritis,Carmen Sanchez Vazquez,18,2,16,2026-06-12,2,Low
+314,ARN100262,ARN Valencia,Adhesive capsulitis (frozen shoulder),Sergio Lopez Torres,18,5,13,2026-06-14,0,Low
+316,ARN100263,ARN Sevilla,Lumbar radiculopathy (sciatica),Sara Diaz Diaz,13,4,9,2026-06-13,1,Low
+322,ARN100268,ARN Madrid Centro,Rotator cuff / shoulder impingement,Manuel Ruiz Romero,13,8,5,2026-05-15,30,High
+324,ARN100270,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Manuel Martinez Alvarez,12,8,4,2026-06-07,7,Low
+329,ARN100275,ARN Bilbao,Lumbar radiculopathy (sciatica),Sara Torres Ruiz,11,3,8,2026-06-04,10,Low
+333,ARN100279,ARN Sevilla,Hip osteoarthritis,Manuel Serrano Martinez,12,7,5,2026-06-05,9,Low
+338,ARN100284,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Paula Ramos Romero,14,5,9,2026-06-10,4,Low
+339,ARN100285,ARN Madrid Norte,Cervicalgia (neck pain),Paula Gomez Gil,11,6,5,2026-06-08,6,Low
+344,ARN100289,ARN Madrid Centro,Lateral ankle sprain,Andrea Vazquez Vazquez,12,4,8,2026-06-14,0,Low
+350,ARN100294,ARN Sevilla,Knee osteoarthritis,Miguel Rodriguez Sanchez,15,8,7,2026-05-21,24,Medium
+352,ARN100296,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Pablo Diaz Martinez,17,2,15,2026-06-11,3,Low
+360,ARN100304,ARN Valencia,Rotator cuff / shoulder impingement,Beatriz Serrano Garcia,16,9,7,2026-05-26,19,Medium
+361,ARN100305,ARN Madrid Centro,Rotator cuff / shoulder impingement,Ivan Diaz Fernandez,10,6,4,2026-06-10,4,Low
+363,ARN100306,ARN Madrid Centro,Rotator cuff / shoulder impingement,Francisco Rodriguez Perez,9,2,7,2026-06-11,3,Low
+364,ARN100307,ARN Bilbao,ACL reconstruction rehabilitation,Alba Torres Rodriguez,20,3,17,2026-06-14,0,Low
+373,ARN100314,ARN Valencia,Cervicalgia (neck pain),Lucia Vazquez Torres,7,2,5,2026-06-08,6,Low
+377,ARN100317,ARN Valencia,ACL reconstruction rehabilitation,Pablo Gil Romero,26,12,14,2026-06-12,2,Low
+380,ARN100319,ARN Madrid Norte,Hip osteoarthritis,Alba Moreno Ruiz,16,4,12,2026-06-06,8,Low
+383,ARN100322,ARN Bilbao,Cervicalgia (neck pain),Lucia Gomez Ruiz,12,6,6,2026-06-13,1,Low
+384,ARN100323,ARN Barcelona Eixample,"Low back pain, non-specific",David Gil Navarro,11,7,4,2026-06-14,0,Low
+392,ARN100330,ARN Malaga,Cervicalgia (neck pain),Andrea Ruiz Torres,12,3,9,2026-05-18,27,Medium
+393,ARN100331,ARN Madrid Norte,"Low back pain, non-specific",Carmen Martinez Diaz,15,2,13,2026-06-13,1,Low
+397,ARN100335,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Nuria Ruiz Torres,30,6,24,2026-04-09,66,High
+398,ARN100336,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Lucia Ortega Sanchez,17,10,7,2026-06-14,0,Low
+407,ARN100345,ARN Barcelona Sants,Hip osteoarthritis,Jesus Garcia Sanchez,10,3,7,2026-05-31,14,Medium
+412,ARN100349,ARN Madrid Centro,Rotator cuff / shoulder impingement,Marta Ortega Castro,15,11,4,2026-06-03,11,Low
+425,ARN100359,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Javier Alvarez Ruiz,17,8,9,2026-06-10,4,Low
+435,ARN100368,ARN Sevilla,Knee osteoarthritis,Francisco Perez Navarro,16,2,14,2026-06-13,1,Low
+444,ARN100376,ARN Madrid Norte,"Low back pain, non-specific",Carmen Diaz Garcia,16,5,11,2026-06-12,2,Low
+445,ARN100376,ARN Madrid Norte,"Low back pain, non-specific",Jose Romero Navarro,12,7,5,2026-06-11,3,Low
+449,ARN100380,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Alejandro Vazquez Perez,11,2,9,2026-06-13,1,Low
+450,ARN100381,ARN Madrid Norte,Cervicalgia (neck pain),Carmen Vazquez Perez,14,5,9,2026-06-12,2,Low
+457,ARN100388,ARN Sevilla,Rotator cuff / shoulder impingement,Manuel Serrano Martinez,18,7,11,2026-06-10,4,Low
+461,ARN100391,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Paula Fernandez Gil,16,9,7,2026-06-13,1,Low
+464,ARN100394,ARN Madrid Centro,"Low back pain, non-specific",Sara Vazquez Sanchez,15,8,7,2026-06-10,4,Low
+467,ARN100397,ARN Madrid Norte,Rotator cuff / shoulder impingement,Paula Gomez Gil,16,3,13,2026-05-12,33,High
+476,ARN100405,ARN Bilbao,Lumbar radiculopathy (sciatica),Ana Alvarez Rodriguez,16,8,8,2026-06-12,2,Low
+490,ARN100418,ARN Bilbao,Lumbar radiculopathy (sciatica),Sara Diaz Gomez,18,6,12,2026-06-14,0,Low
+492,ARN100420,ARN Madrid Norte,Rotator cuff / shoulder impingement,Marta Torres Rodriguez,14,3,11,2026-06-12,2,Low
+493,ARN100421,ARN Sevilla,ACL reconstruction rehabilitation,Elena Navarro Sanchez,27,7,20,2026-04-16,59,High
+494,ARN100421,ARN Sevilla,Lumbar radiculopathy (sciatica),Nuria Martinez Garcia,20,4,16,2026-06-14,0,Low
+495,ARN100422,ARN Barcelona Eixample,Knee osteoarthritis,Alejandro Rodriguez Serrano,13,7,6,2026-06-08,6,Low
+500,ARN100425,ARN Madrid Norte,Cervicalgia (neck pain),Carmen Martinez Diaz,11,5,6,2026-06-04,10,Low
+503,ARN100428,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Javier Ruiz Gomez,14,8,6,2026-06-05,9,Low
+526,ARN100448,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Manuel Martinez Alvarez,14,5,9,2026-06-06,8,Low
+531,ARN100451,ARN Madrid Centro,Hip osteoarthritis,Manuel Ruiz Romero,10,4,6,2026-06-14,0,Low
+532,ARN100451,ARN Madrid Centro,Rotator cuff / shoulder impingement,Elena Sanchez Moreno,17,12,5,2026-06-13,1,Low
+542,ARN100461,ARN Barcelona Sants,Hip osteoarthritis,Ivan Moreno Fernandez,14,5,9,2026-06-14,0,Low
+545,ARN100464,ARN Madrid Centro,ACL reconstruction rehabilitation,Francisco Rodriguez Perez,25,9,16,2026-05-23,22,Medium
+547,ARN100466,ARN Sevilla,Knee osteoarthritis,Francisco Perez Navarro,9,6,3,2026-06-14,0,Low
+553,ARN100471,ARN Bilbao,"Low back pain, non-specific",Jose Navarro Fernandez,12,9,3,2026-05-19,26,Medium
+559,ARN100477,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Maria Alvarez Gonzalez,22,8,14,2026-06-14,0,Low
+573,ARN100488,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Francisco Perez Navarro,20,9,11,2026-06-13,1,Low
+585,ARN100496,ARN Bilbao,Lateral epicondylitis (tennis elbow),Carmen Serrano Castro,9,4,5,2026-06-13,1,Low
+586,ARN100496,ARN Bilbao,Knee osteoarthritis,Rocio Serrano Gonzalez,15,6,9,2026-06-06,8,Low
+598,ARN100507,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Marta Fernandez Ortega,29,12,17,2026-06-12,2,Low
+601,ARN100509,ARN Bilbao,Lateral epicondylitis (tennis elbow),Jesus Diaz Moreno,11,9,2,2026-06-12,2,Low
+605,ARN100513,ARN Sevilla,Lumbar radiculopathy (sciatica),Maria Ruiz Serrano,18,2,16,2026-06-14,0,Low
+608,ARN100516,ARN Barcelona Eixample,"Low back pain, non-specific",Javier Ruiz Gomez,11,3,8,2026-06-13,1,Low
+613,ARN100521,ARN Madrid Norte,Hip osteoarthritis,Maria Alvarez Gonzalez,10,2,8,2026-06-10,4,Low
+627,ARN100535,ARN Sevilla,Hip osteoarthritis,Manuel Serrano Martinez,11,4,7,2026-06-11,3,Low
+636,ARN100541,ARN Madrid Centro,Carpal tunnel syndrome (conservative),Javier Serrano Fernandez,7,3,4,2026-06-06,8,Low
+639,ARN100543,ARN Sevilla,Rotator cuff / shoulder impingement,Miguel Garcia Lopez,18,10,8,2026-06-14,0,Low
+648,ARN100549,ARN Barcelona Sants,"Low back pain, non-specific",Javier Alvarez Ruiz,12,8,4,2026-06-09,5,Low
+671,ARN100569,ARN Bilbao,Rotator cuff / shoulder impingement,Jose Navarro Fernandez,18,7,11,2026-05-28,17,Medium
+678,ARN100573,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Carmen Sanchez Vazquez,16,7,9,2026-06-12,2,Low
+691,ARN100584,ARN Barcelona Sants,"Low back pain, non-specific",Elena Serrano Fernandez,13,8,5,2026-05-19,26,Medium
+692,ARN100585,ARN Valencia,Rotator cuff / shoulder impingement,Alba Vazquez Lopez,10,4,6,2026-06-11,3,Low
+694,ARN100587,ARN Barcelona Eixample,Lateral ankle sprain,Nuria Ruiz Torres,12,2,10,2026-06-14,0,Low
+696,ARN100589,ARN Valencia,Rotator cuff / shoulder impingement,Alba Vazquez Lopez,11,3,8,2026-06-10,4,Low
+699,ARN100591,ARN Sevilla,Hip osteoarthritis,Francisco Perez Navarro,11,4,7,2026-06-13,1,Low
+724,ARN100611,ARN Valencia,Cervicalgia (neck pain),Adrian Romero Vazquez,10,5,5,2026-06-14,0,Low
+733,ARN100620,ARN Valencia,Lumbar radiculopathy (sciatica),Pablo Gil Romero,19,2,17,2026-06-14,0,Low
+737,ARN100624,ARN Madrid Centro,Knee osteoarthritis,Andrea Vazquez Vazquez,11,2,9,2026-06-05,9,Low
+741,ARN100628,ARN Valencia,Rotator cuff / shoulder impingement,Pablo Gil Romero,11,2,9,2026-06-12,2,Low
+749,ARN100636,ARN Madrid Norte,Cervicalgia (neck pain),Marta Torres Rodriguez,14,4,10,2026-06-13,1,Low
+750,ARN100637,ARN Malaga,"Low back pain, non-specific",Andrea Ruiz Torres,15,2,13,2026-06-12,2,Low
+768,ARN100654,ARN Valencia,"Low back pain, non-specific",Beatriz Serrano Garcia,11,7,4,2026-05-18,27,Medium
+769,ARN100655,ARN Barcelona Eixample,Hip osteoarthritis,Manuel Gomez Lopez,15,12,3,2026-06-12,2,Low
+789,ARN100673,ARN Malaga,"Low back pain, non-specific",Carmen Navarro Moreno,9,3,6,2026-06-13,1,Low
+803,ARN100685,ARN Madrid Norte,ACL reconstruction rehabilitation,Paula Ramos Romero,17,4,13,2026-06-14,0,Low
+807,ARN100689,ARN Valencia,"Low back pain, non-specific",Carlos Perez Torres,8,6,2,2026-06-06,8,Low
+808,ARN100690,ARN Barcelona Eixample,Knee osteoarthritis,David Gil Navarro,11,4,7,2026-06-11,3,Low
+829,ARN100706,ARN Madrid Centro,Lateral ankle sprain,Javier Serrano Fernandez,7,2,5,2026-06-09,5,Low
+832,ARN100709,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Alba Torres Moreno,17,10,7,2026-06-06,8,Low
+843,ARN100716,ARN Madrid Norte,Knee osteoarthritis,Miguel Navarro Perez,18,6,12,2026-06-06,8,Low
+844,ARN100717,ARN Bilbao,"Low back pain, non-specific",Alba Torres Rodriguez,13,9,4,2026-05-23,22,Medium
+850,ARN100723,ARN Madrid Centro,"Low back pain, non-specific",Manuel Ruiz Romero,9,5,4,2026-06-09,5,Low
+851,ARN100724,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Elena Moreno Romero,12,4,8,2026-06-11,3,Low
+853,ARN100726,ARN Sevilla,Rotator cuff / shoulder impingement,Daniel Gonzalez Lopez,18,7,11,2026-05-19,26,Medium
+857,ARN100729,ARN Malaga,Adhesive capsulitis (frozen shoulder),Jose Navarro Gil,21,2,19,2026-06-11,3,Low
+859,ARN100731,ARN Sevilla,Lumbar radiculopathy (sciatica),Sara Diaz Diaz,18,4,14,2026-06-09,5,Low
+860,ARN100732,ARN Valencia,Adhesive capsulitis (frozen shoulder),Alba Vazquez Lopez,18,12,6,2026-06-10,4,Low
+867,ARN100737,ARN Malaga,Cervicalgia (neck pain),Maria Romero Torres,8,4,4,2026-06-07,7,Low
+870,ARN100738,ARN Valencia,Lateral epicondylitis (tennis elbow),Rocio Navarro Torres,8,5,3,2026-05-24,21,Medium
+874,ARN100742,ARN Barcelona Sants,ACL reconstruction rehabilitation,Antonio Gomez Diaz,24,11,13,2026-06-10,4,Low
+886,ARN100751,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Francisco Rodriguez Perez,6,3,3,2026-06-12,2,Low
+893,ARN100756,ARN Valencia,Rotator cuff / shoulder impingement,Rocio Navarro Torres,14,10,4,2026-05-19,26,Medium
+900,ARN100762,ARN Valencia,Plantar fasciitis,Rocio Navarro Torres,7,4,3,2026-06-13,1,Low
+904,ARN100766,ARN Madrid Centro,ACL reconstruction rehabilitation,Elena Sanchez Moreno,27,8,19,2026-06-08,6,Low
+905,ARN100767,ARN Malaga,Hip osteoarthritis,Andrea Sanchez Fernandez,16,5,11,2026-06-12,2,Low
+906,ARN100768,ARN Madrid Norte,Cervicalgia (neck pain),Elena Moreno Romero,6,5,1,2026-06-08,6,Low
+908,ARN100770,ARN Valencia,Adhesive capsulitis (frozen shoulder),Carlos Perez Torres,13,5,8,2026-06-12,2,Low
+912,ARN100774,ARN Madrid Norte,"Low back pain, non-specific",Paula Perez Serrano,16,9,7,2026-06-14,0,Low
+920,ARN100780,ARN Malaga,Knee osteoarthritis,Cristina Martinez Romero,12,6,6,2026-06-02,12,Low
+924,ARN100783,ARN Madrid Norte,Hip osteoarthritis,Carmen Martinez Diaz,15,4,11,2026-06-13,1,Low
+932,ARN100788,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Manuel Gomez Lopez,24,15,9,2026-06-09,5,Low
+938,ARN100794,ARN Bilbao,Lateral ankle sprain,David Serrano Gil,12,7,5,2026-06-12,2,Low
+951,ARN100805,ARN Sevilla,"Low back pain, non-specific",Nuria Martinez Garcia,14,7,7,2026-06-02,12,Low
+975,ARN100826,ARN Valencia,Rotator cuff / shoulder impingement,Pablo Gil Romero,13,5,8,2026-06-14,0,Low
+1004,ARN100849,ARN Sevilla,Rotator cuff / shoulder impingement,Francisco Perez Navarro,10,5,5,2026-06-14,0,Low
+1008,ARN100852,ARN Bilbao,"Low back pain, non-specific",Carmen Serrano Castro,16,5,11,2026-06-11,3,Low
+1034,ARN100871,ARN Barcelona Sants,Knee osteoarthritis,Alba Torres Moreno,17,13,4,2026-06-14,0,Low
+1039,ARN100875,ARN Barcelona Eixample,Lateral ankle sprain,Antonio Ortega Vazquez,11,5,6,2026-06-12,2,Low
+1042,ARN100877,ARN Barcelona Sants,Knee osteoarthritis,Lucia Ortega Sanchez,16,12,4,2026-06-12,2,Low
+1053,ARN100886,ARN Bilbao,"Low back pain, non-specific",Sara Torres Ruiz,16,8,8,2026-06-07,7,Low
+1054,ARN100887,ARN Valencia,Knee osteoarthritis,Manuel Rodriguez Ortega,8,3,5,2026-05-23,22,Medium
+1058,ARN100889,ARN Madrid Centro,"Low back pain, non-specific",Rocio Martinez Diaz,16,6,10,2026-06-14,0,Low
+1069,ARN100896,ARN Sevilla,"Low back pain, non-specific",Miguel Rodriguez Sanchez,9,4,5,2026-06-13,1,Low
+1089,ARN100916,ARN Valencia,Knee osteoarthritis,Adrian Torres Perez,14,7,7,2026-06-14,0,Low
+1094,ARN100920,ARN Madrid Centro,ACL reconstruction rehabilitation,Francisco Rodriguez Perez,29,15,14,2026-06-14,0,Low
+1101,ARN100925,ARN Barcelona Eixample,"Low back pain, non-specific",Nuria Ruiz Torres,10,3,7,2026-06-14,0,Low
+1110,ARN100931,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Jesus Sanchez Martinez,21,8,13,2026-06-14,0,Low
+1117,ARN100935,ARN Barcelona Eixample,Lateral epicondylitis (tennis elbow),Alejandro Rodriguez Serrano,11,4,7,2026-05-29,16,Medium
+1130,ARN100947,ARN Valencia,Lateral epicondylitis (tennis elbow),Ana Gonzalez Torres,6,2,4,2026-06-12,2,Low
+1131,ARN100947,ARN Valencia,Lumbar radiculopathy (sciatica),Carlos Alvarez Rodriguez,10,2,8,2026-06-13,1,Low
+1137,ARN100951,ARN Malaga,"Low back pain, non-specific",Daniel Martinez Fernandez,15,5,10,2026-06-13,1,Low
+1138,ARN100951,ARN Malaga,Cervicalgia (neck pain),Javier Romero Navarro,7,3,4,2026-06-12,2,Low
+1143,ARN100955,ARN Sevilla,ACL reconstruction rehabilitation,Sara Diaz Diaz,22,4,18,2026-06-14,0,Low
+1144,ARN100955,ARN Sevilla,Plantar fasciitis,Sara Diaz Diaz,8,2,6,2026-06-05,9,Low
+1146,ARN100957,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Marta Fernandez Ortega,13,2,11,2026-05-25,20,Medium
+1150,ARN100960,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Antonio Ortega Vazquez,22,3,19,2026-06-12,2,Low
+1189,ARN100991,ARN Bilbao,Rotator cuff / shoulder impingement,Sara Torres Ruiz,10,5,5,2026-06-06,8,Low
+1192,ARN100994,ARN Barcelona Eixample,Hip osteoarthritis,Antonio Ortega Vazquez,16,12,4,2026-05-25,20,Medium
+1202,ARN101001,ARN Madrid Centro,Lateral ankle sprain,Sara Alvarez Gonzalez,7,5,2,2026-06-10,4,Low
+1203,ARN101001,ARN Madrid Centro,ACL reconstruction rehabilitation,Marta Vazquez Garcia,30,3,27,2026-06-11,3,Low
+1205,ARN101003,ARN Madrid Norte,Rotator cuff / shoulder impingement,Elena Moreno Romero,17,5,12,2026-05-30,15,Medium
+1247,ARN101036,ARN Malaga,ACL reconstruction rehabilitation,Maria Romero Torres,30,20,10,2026-06-14,0,Low
+1257,ARN101044,ARN Madrid Norte,Carpal tunnel syndrome (conservative),Manuel Martinez Alvarez,9,6,3,2026-06-10,4,Low
+1260,ARN101047,ARN Sevilla,Hip osteoarthritis,Manuel Serrano Martinez,12,8,4,2026-06-07,7,Low
+1275,ARN101059,ARN Malaga,"Low back pain, non-specific",Daniel Martinez Fernandez,10,6,4,2026-06-14,0,Low
+1282,ARN101065,ARN Madrid Centro,Carpal tunnel syndrome (conservative),Marta Ortega Castro,10,4,6,2026-06-07,7,Low
+1283,ARN101065,ARN Madrid Centro,"Low back pain, non-specific",Javier Rodriguez Perez,15,2,13,2026-06-06,8,Low
+1285,ARN101067,ARN Madrid Centro,Carpal tunnel syndrome (conservative),Paula Ramos Garcia,12,6,6,2026-06-13,1,Low
+1298,ARN101078,ARN Barcelona Eixample,Knee osteoarthritis,Carmen Sanchez Vazquez,18,5,13,2026-05-01,44,High
+1305,ARN101084,ARN Bilbao,Lateral ankle sprain,Lucia Gomez Ruiz,9,6,3,2026-06-09,5,Low
+1310,ARN101088,ARN Bilbao,"Low back pain, non-specific",David Serrano Gil,11,4,7,2026-06-14,0,Low
+1318,ARN101096,ARN Madrid Centro,Cervicalgia (neck pain),Elena Sanchez Moreno,8,1,7,2026-06-01,13,Low
+1321,ARN101097,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Nuria Ruiz Torres,19,11,8,2026-06-09,5,Low
+1330,ARN101105,ARN Madrid Norte,Rotator cuff / shoulder impingement,Carmen Martinez Diaz,13,3,10,2026-06-13,1,Low
+1337,ARN101112,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Carmen Vazquez Perez,13,6,7,2026-06-13,1,Low
+1365,ARN101132,ARN Barcelona Eixample,Carpal tunnel syndrome (conservative),Manuel Gomez Lopez,9,3,6,2026-06-10,4,Low
+1367,ARN101134,ARN Madrid Centro,Cervicalgia (neck pain),Marta Ortega Castro,14,9,5,2026-06-12,2,Low
+1375,ARN101140,ARN Bilbao,Rotator cuff / shoulder impingement,Pablo Navarro Castro,15,4,11,2026-06-13,1,Low
+1390,ARN101153,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Sergio Rodriguez Gonzalez,20,2,18,2026-06-10,4,Low
+1393,ARN101156,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Francisco Rodriguez Perez,20,5,15,2026-06-01,13,Low
+1401,ARN101159,ARN Valencia,"Low back pain, non-specific",Rocio Navarro Torres,16,8,8,2026-06-05,9,Low
+1403,ARN101161,ARN Madrid Norte,Lateral ankle sprain,Elena Moreno Romero,12,3,9,2026-06-13,1,Low
+1408,ARN101166,ARN Madrid Centro,ACL reconstruction rehabilitation,Elena Sanchez Moreno,26,3,23,2026-06-13,1,Low
+1423,ARN101179,ARN Bilbao,Lumbar radiculopathy (sciatica),Andrea Fernandez Diaz,14,11,3,2026-06-05,9,Low
+1426,ARN101181,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Marta Fernandez Ortega,11,3,8,2026-06-10,4,Low
+1430,ARN101185,ARN Barcelona Sants,Knee osteoarthritis,Jesus Garcia Sanchez,14,2,12,2026-06-14,0,Low
+1439,ARN101191,ARN Sevilla,Rotator cuff / shoulder impingement,Manuel Serrano Martinez,12,1,11,2026-06-13,1,Low
+1449,ARN101197,ARN Sevilla,Rotator cuff / shoulder impingement,Miguel Garcia Lopez,17,1,16,2026-06-14,0,Low
+1451,ARN101199,ARN Valencia,Adhesive capsulitis (frozen shoulder),Ana Gonzalez Torres,21,1,20,2026-06-05,9,Low
+1454,ARN101202,ARN Bilbao,Hip osteoarthritis,Alba Torres Rodriguez,13,6,7,2026-05-29,16,Medium
+1458,ARN101206,ARN Bilbao,Rotator cuff / shoulder impingement,Sara Torres Ruiz,17,4,13,2026-06-14,0,Low
+1459,ARN101207,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Sergio Rodriguez Gonzalez,20,7,13,2026-06-12,2,Low
+1464,ARN101210,ARN Madrid Centro,"Low back pain, non-specific",Sara Alvarez Gonzalez,15,7,8,2026-05-08,37,High
+1480,ARN101223,ARN Malaga,Lateral ankle sprain,Lucia Sanchez Alvarez,12,4,8,2026-06-13,1,Low
+1483,ARN101225,ARN Malaga,"Low back pain, non-specific",Andrea Ruiz Torres,16,8,8,2026-06-03,11,Low
+1493,ARN101235,ARN Barcelona Sants,Carpal tunnel syndrome (conservative),Alejandro Serrano Ruiz,10,5,5,2026-06-07,7,Low
+1495,ARN101236,ARN Sevilla,Rotator cuff / shoulder impingement,Nuria Martinez Garcia,15,3,12,2026-06-14,0,Low
+1498,ARN101239,ARN Malaga,Lateral ankle sprain,Adrian Perez Lopez,11,4,7,2026-06-14,0,Low
+1503,ARN101243,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Maria Ruiz Serrano,17,9,8,2026-05-07,38,High
+1505,ARN101245,ARN Malaga,"Low back pain, non-specific",Sara Ruiz Alvarez,16,10,6,2026-05-24,21,Medium
+1508,ARN101248,ARN Barcelona Sants,Lateral epicondylitis (tennis elbow),Alejandro Serrano Ruiz,10,3,7,2026-06-08,6,Low
+1512,ARN101252,ARN Malaga,Carpal tunnel syndrome (conservative),Maria Romero Torres,11,2,9,2026-06-12,2,Low
+1525,ARN101261,ARN Bilbao,ACL reconstruction rehabilitation,Jesus Diaz Moreno,28,5,23,2026-06-09,5,Low
+1530,ARN101265,ARN Bilbao,Cervicalgia (neck pain),David Lopez Rodriguez,10,5,5,2026-06-14,0,Low
+1544,ARN101277,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Alba Vazquez Ortega,14,9,5,2026-05-12,33,High
+1555,ARN101284,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,David Gil Navarro,14,3,11,2026-06-12,2,Low
+1557,ARN101286,ARN Barcelona Sants,ACL reconstruction rehabilitation,Sergio Rodriguez Gonzalez,20,7,13,2026-05-16,29,High
+1565,ARN101291,ARN Valencia,"Low back pain, non-specific",Ana Gonzalez Torres,8,4,4,2026-05-22,23,Medium
+1574,ARN101299,ARN Bilbao,"Low back pain, non-specific",Ana Alvarez Rodriguez,16,5,11,2026-05-15,30,High
+1575,ARN101299,ARN Bilbao,Lumbar radiculopathy (sciatica),Laura Castro Navarro,15,10,5,2026-06-04,10,Low
+1576,ARN101299,ARN Bilbao,Carpal tunnel syndrome (conservative),Andrea Fernandez Diaz,12,5,7,2026-05-30,15,Medium
+1577,ARN101300,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Alejandro Rodriguez Serrano,15,4,11,2026-06-11,3,Low
+1581,ARN101303,ARN Sevilla,"Low back pain, non-specific",Cristina Ramos Sanchez,15,3,12,2026-06-10,4,Low
+1587,ARN101308,ARN Malaga,Rotator cuff / shoulder impingement,Andrea Sanchez Fernandez,17,3,14,2026-06-12,2,Low
+1588,ARN101309,ARN Bilbao,Cervicalgia (neck pain),Ana Alvarez Rodriguez,7,2,5,2026-06-14,0,Low
+1589,ARN101310,ARN Madrid Centro,ACL reconstruction rehabilitation,Ivan Diaz Fernandez,25,15,10,2026-05-11,34,High
+1609,ARN101328,ARN Madrid Norte,ACL reconstruction rehabilitation,Nuria Castro Moreno,21,5,16,2026-06-14,0,Low
+1614,ARN101332,ARN Malaga,Knee osteoarthritis,Maria Romero Torres,18,3,15,2026-06-13,1,Low
+1621,ARN101337,ARN Sevilla,Knee osteoarthritis,Francisco Perez Navarro,18,5,13,2026-06-13,1,Low
+1632,ARN101346,ARN Madrid Norte,Hip osteoarthritis,Nuria Castro Moreno,13,2,11,2026-05-11,34,High
+1633,ARN101347,ARN Valencia,Hip osteoarthritis,Ana Gonzalez Torres,12,2,10,2026-06-11,3,Low
+1641,ARN101354,ARN Bilbao,ACL reconstruction rehabilitation,Ana Alvarez Rodriguez,25,9,16,2026-04-17,58,High
+1650,ARN101363,ARN Barcelona Eixample,Knee osteoarthritis,Pablo Diaz Martinez,9,3,6,2026-06-05,9,Low
+1651,ARN101364,ARN Sevilla,"Low back pain, non-specific",Francisco Perez Navarro,13,4,9,2026-06-04,10,Low
+1652,ARN101365,ARN Barcelona Sants,"Low back pain, non-specific",Alba Vazquez Ortega,12,2,10,2026-05-30,15,Medium
+1662,ARN101374,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Manuel Ruiz Romero,24,3,21,2026-06-14,0,Low
+1674,ARN101383,ARN Madrid Norte,"Low back pain, non-specific",Jesus Sanchez Martinez,11,3,8,2026-06-10,4,Low
+1679,ARN101388,ARN Sevilla,"Low back pain, non-specific",Pablo Perez Romero,12,2,10,2026-06-12,2,Low
+1693,ARN101401,ARN Sevilla,Lumbar radiculopathy (sciatica),Miguel Rodriguez Sanchez,12,2,10,2026-06-13,1,Low
+1697,ARN101405,ARN Malaga,Cervicalgia (neck pain),Alejandro Serrano Garcia,14,3,11,2026-06-11,3,Low
+1710,ARN101416,ARN Madrid Norte,Knee osteoarthritis,Paula Ramos Romero,17,3,14,2026-06-12,2,Low
+1716,ARN101422,ARN Bilbao,ACL reconstruction rehabilitation,David Serrano Gil,24,4,20,2026-06-01,13,Low
+1718,ARN101423,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Carmen Diaz Garcia,10,3,7,2026-06-01,13,Low
+1721,ARN101425,ARN Bilbao,Cervicalgia (neck pain),Rocio Serrano Gonzalez,7,3,4,2026-06-06,8,Low
+1727,ARN101431,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Javier Garcia Sanchez,23,4,19,2026-06-12,2,Low
+1738,ARN101441,ARN Madrid Centro,Carpal tunnel syndrome (conservative),Javier Serrano Fernandez,8,6,2,2026-06-14,0,Low
+1750,ARN101452,ARN Malaga,"Low back pain, non-specific",Daniel Martinez Fernandez,15,3,12,2026-06-06,8,Low
+1755,ARN101457,ARN Malaga,ACL reconstruction rehabilitation,Daniel Martinez Fernandez,25,6,19,2026-06-14,0,Low
+1756,ARN101457,ARN Malaga,"Low back pain, non-specific",Jose Navarro Gil,15,5,10,2026-06-07,7,Low
+1757,ARN101458,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Marta Martinez Garcia,15,6,9,2026-05-25,20,Medium
+1767,ARN101467,ARN Malaga,ACL reconstruction rehabilitation,Jose Navarro Gil,26,3,23,2026-06-14,0,Low
+1779,ARN101478,ARN Bilbao,Plantar fasciitis,Andrea Fernandez Diaz,14,4,10,2026-06-12,2,Low
+1785,ARN101484,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Javier Garcia Sanchez,18,1,17,2026-06-01,13,Low
+1788,ARN101485,ARN Barcelona Sants,Rotator cuff / shoulder impingement,David Martinez Sanchez,16,2,14,2026-06-14,0,Low
+1799,ARN101491,ARN Madrid Centro,Knee osteoarthritis,Marta Ortega Castro,18,4,14,2026-06-13,1,Low
+1801,ARN101493,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Carmen Sanchez Vazquez,13,8,5,2026-06-14,0,Low
+1828,ARN101516,ARN Valencia,Rotator cuff / shoulder impingement,Adrian Torres Perez,8,2,6,2026-06-13,1,Low
+1839,ARN101525,ARN Madrid Centro,Carpal tunnel syndrome (conservative),Paula Ramos Garcia,6,4,2,2026-06-06,8,Low
+1842,ARN101527,ARN Sevilla,Lumbar radiculopathy (sciatica),Manuel Serrano Martinez,15,5,10,2026-06-04,10,Low
+1858,ARN101538,ARN Sevilla,ACL reconstruction rehabilitation,Maria Ruiz Serrano,25,5,20,2026-06-13,1,Low
+1869,ARN101546,ARN Bilbao,Rotator cuff / shoulder impingement,Alba Torres Rodriguez,18,5,13,2026-06-12,2,Low
+1874,ARN101550,ARN Bilbao,"Low back pain, non-specific",Ana Alvarez Rodriguez,10,4,6,2026-06-14,0,Low
+1875,ARN101550,ARN Bilbao,Rotator cuff / shoulder impingement,David Serrano Gil,11,4,7,2026-06-13,1,Low
+1878,ARN101552,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Carmen Sanchez Vazquez,28,13,15,2026-06-12,2,Low
+1890,ARN101560,ARN Sevilla,Lumbar radiculopathy (sciatica),Manuel Serrano Martinez,16,7,9,2026-05-16,29,High
+1891,ARN101561,ARN Madrid Norte,Cervicalgia (neck pain),Nuria Castro Moreno,13,2,11,2026-05-02,43,High
+1905,ARN101575,ARN Sevilla,"Low back pain, non-specific",Cristina Ramos Sanchez,9,3,6,2026-06-10,4,Low
+1906,ARN101576,ARN Malaga,Lateral ankle sprain,Carmen Navarro Moreno,12,2,10,2026-06-09,5,Low
+1926,ARN101595,ARN Madrid Norte,"Low back pain, non-specific",Paula Gomez Gil,13,1,12,2026-06-03,11,Low
+1933,ARN101602,ARN Barcelona Sants,ACL reconstruction rehabilitation,Adrian Romero Ramos,16,7,9,2026-05-23,22,Medium
+1938,ARN101606,ARN Bilbao,Knee osteoarthritis,David Serrano Gil,10,2,8,2026-06-09,5,Low
+1939,ARN101606,ARN Bilbao,Adhesive capsulitis (frozen shoulder),Sara Diaz Gomez,22,5,17,2026-06-09,5,Low
+1942,ARN101609,ARN Madrid Norte,Hip osteoarthritis,Paula Perez Serrano,16,3,13,2026-06-12,2,Low
+1943,ARN101609,ARN Madrid Norte,ACL reconstruction rehabilitation,Laura Vazquez Gil,21,5,16,2026-06-13,1,Low
+1952,ARN101615,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Andrea Vazquez Vazquez,16,4,12,2026-05-27,18,Medium
+1959,ARN101620,ARN Bilbao,Knee osteoarthritis,Pablo Navarro Castro,11,1,10,2026-06-01,13,Low
+1968,ARN101629,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Javier Ruiz Gomez,20,10,10,2026-06-14,0,Low
+1987,ARN101645,ARN Malaga,Lumbar radiculopathy (sciatica),Carmen Navarro Moreno,10,3,7,2026-06-13,1,Low
+1994,ARN101651,ARN Madrid Norte,"Low back pain, non-specific",Laura Vazquez Gil,10,3,7,2026-06-08,6,Low
+1995,ARN101651,ARN Madrid Norte,"Low back pain, non-specific",Paula Ramos Romero,14,2,12,2026-06-14,0,Low
+2001,ARN101656,ARN Madrid Centro,Plantar fasciitis,Manuel Rodriguez Sanchez,11,6,5,2026-06-14,0,Low
+2010,ARN101663,ARN Malaga,Cervicalgia (neck pain),Carmen Navarro Moreno,9,3,6,2026-05-21,24,Medium
+2015,ARN101668,ARN Barcelona Sants,"Low back pain, non-specific",Antonio Gomez Diaz,13,2,11,2026-06-09,5,Low
+2027,ARN101679,ARN Bilbao,Rotator cuff / shoulder impingement,Pablo Navarro Castro,17,3,14,2026-06-13,1,Low
+2029,ARN101681,ARN Madrid Norte,Cervicalgia (neck pain),Manuel Martinez Alvarez,12,8,4,2026-06-03,11,Low
+2032,ARN101684,ARN Barcelona Eixample,Lateral ankle sprain,Nuria Ruiz Torres,8,1,7,2026-06-09,5,Low
+2036,ARN101688,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Daniel Gonzalez Lopez,20,5,15,2026-06-12,2,Low
+2038,ARN101690,ARN Barcelona Eixample,Carpal tunnel syndrome (conservative),Alejandro Rodriguez Serrano,12,6,6,2026-05-31,14,Medium
+2047,ARN101698,ARN Bilbao,Plantar fasciitis,Ana Alvarez Rodriguez,13,3,10,2026-06-12,2,Low
+2052,ARN101703,ARN Malaga,Cervicalgia (neck pain),Ivan Fernandez Romero,11,10,1,2026-05-31,14,Medium
+2056,ARN101705,ARN Bilbao,ACL reconstruction rehabilitation,David Lopez Rodriguez,25,11,14,2026-04-21,54,High
+2057,ARN101706,ARN Barcelona Eixample,Knee osteoarthritis,Nuria Ruiz Torres,11,6,5,2026-06-12,2,Low
+2062,ARN101711,ARN Madrid Norte,"Low back pain, non-specific",Jesus Sanchez Martinez,16,8,8,2026-06-08,6,Low
+2065,ARN101713,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Marta Fernandez Ortega,23,3,20,2026-06-13,1,Low
+2069,ARN101716,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Marta Vazquez Garcia,6,2,4,2026-06-12,2,Low
+2071,ARN101718,ARN Madrid Norte,Knee osteoarthritis,Carmen Diaz Garcia,13,11,2,2026-06-02,12,Low
+2072,ARN101719,ARN Valencia,Carpal tunnel syndrome (conservative),Rocio Navarro Torres,8,1,7,2026-06-07,7,Low
+2075,ARN101722,ARN Barcelona Sants,"Low back pain, non-specific",Alejandro Vazquez Perez,10,4,6,2026-05-26,19,Medium
+2077,ARN101724,ARN Madrid Centro,"Low back pain, non-specific",Rocio Martinez Diaz,13,5,8,2026-06-07,7,Low
+2083,ARN101729,ARN Barcelona Eixample,Knee osteoarthritis,David Gil Navarro,9,4,5,2026-05-29,16,Medium
+2092,ARN101737,ARN Madrid Norte,"Low back pain, non-specific",Elena Moreno Romero,16,3,13,2026-06-12,2,Low
+2095,ARN101739,ARN Madrid Norte,Knee osteoarthritis,Paula Perez Serrano,14,6,8,2026-05-26,19,Medium
+2103,ARN101744,ARN Bilbao,Lumbar radiculopathy (sciatica),Laura Castro Navarro,20,7,13,2026-06-08,6,Low
+2104,ARN101744,ARN Bilbao,Knee osteoarthritis,Carmen Serrano Castro,15,8,7,2026-06-11,3,Low
+2105,ARN101744,ARN Bilbao,"Low back pain, non-specific",Andrea Fernandez Diaz,15,5,10,2026-05-26,19,Medium
+2116,ARN101753,ARN Barcelona Sants,"Low back pain, non-specific",Elena Serrano Fernandez,10,4,6,2026-06-10,4,Low
+2120,ARN101756,ARN Valencia,Knee osteoarthritis,Manuel Rodriguez Ortega,8,4,4,2026-05-24,21,Medium
+2124,ARN101759,ARN Sevilla,Carpal tunnel syndrome (conservative),Cristina Ramos Sanchez,12,5,7,2026-05-12,33,High
+2127,ARN101762,ARN Malaga,Knee osteoarthritis,Javier Romero Navarro,11,2,9,2026-05-16,29,High
+2130,ARN101763,ARN Sevilla,Rotator cuff / shoulder impingement,Francisco Perez Navarro,17,8,9,2026-06-14,0,Low
+2141,ARN101771,ARN Valencia,"Low back pain, non-specific",Sergio Lopez Torres,14,4,10,2026-06-10,4,Low
+2144,ARN101773,ARN Madrid Norte,Lateral epicondylitis (tennis elbow),Manuel Martinez Alvarez,12,3,9,2026-06-10,4,Low
+2146,ARN101774,ARN Barcelona Sants,Cervicalgia (neck pain),Adrian Romero Ramos,13,4,9,2026-06-13,1,Low
+2150,ARN101778,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Pablo Diaz Martinez,30,10,20,2026-06-13,1,Low
+2158,ARN101784,ARN Malaga,Knee osteoarthritis,Carmen Navarro Moreno,12,3,9,2026-05-11,34,High
+2162,ARN101785,ARN Madrid Centro,"Low back pain, non-specific",Javier Serrano Fernandez,8,4,4,2026-06-09,5,Low
+2165,ARN101788,ARN Sevilla,Knee osteoarthritis,Daniel Gonzalez Lopez,18,4,14,2026-06-13,1,Low
+2169,ARN101792,ARN Bilbao,"Low back pain, non-specific",Pablo Gonzalez Vazquez,9,2,7,2026-06-13,1,Low
+2179,ARN101801,ARN Barcelona Sants,ACL reconstruction rehabilitation,Daniel Diaz Gonzalez,17,6,11,2026-05-25,20,Medium
+2180,ARN101802,ARN Madrid Norte,Lateral ankle sprain,Marta Torres Rodriguez,8,6,2,2026-06-08,6,Low
+2182,ARN101804,ARN Valencia,Knee osteoarthritis,Sergio Lopez Torres,16,2,14,2026-06-14,0,Low
+2184,ARN101806,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Carmen Sanchez Vazquez,21,5,16,2026-06-13,1,Low
+2205,ARN101826,ARN Bilbao,Carpal tunnel syndrome (conservative),Jose Navarro Fernandez,10,5,5,2026-06-12,2,Low
+2217,ARN101836,ARN Malaga,"Low back pain, non-specific",Jose Navarro Gil,12,2,10,2026-06-05,9,Low
+2219,ARN101838,ARN Valencia,Lumbar radiculopathy (sciatica),Sergio Gomez Ortega,19,7,12,2026-06-14,0,Low
+2221,ARN101840,ARN Madrid Norte,Rotator cuff / shoulder impingement,Paula Ramos Romero,13,3,10,2026-06-12,2,Low
+2225,ARN101843,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Sara Vazquez Sanchez,8,5,3,2026-06-06,8,Low
+2226,ARN101844,ARN Sevilla,Plantar fasciitis,Maria Ruiz Serrano,14,4,10,2026-06-07,7,Low
+2233,ARN101850,ARN Valencia,Cervicalgia (neck pain),Lucia Vazquez Torres,8,2,6,2026-06-14,0,Low
+2237,ARN101854,ARN Valencia,Knee osteoarthritis,Alba Vazquez Lopez,16,4,12,2026-05-22,23,Medium
+2238,ARN101855,ARN Bilbao,Plantar fasciitis,Sara Diaz Gomez,14,9,5,2026-06-11,3,Low
+2247,ARN101862,ARN Malaga,Cervicalgia (neck pain),Ivan Fernandez Romero,12,6,6,2026-05-28,17,Medium
+2248,ARN101862,ARN Malaga,"Low back pain, non-specific",Alejandro Serrano Garcia,8,3,5,2026-06-14,0,Low
+2261,ARN101874,ARN Sevilla,Lumbar radiculopathy (sciatica),Maria Ruiz Serrano,17,4,13,2026-06-13,1,Low
+2282,ARN101888,ARN Sevilla,"Low back pain, non-specific",Pablo Perez Romero,14,10,4,2026-06-13,1,Low
+2285,ARN101889,ARN Barcelona Eixample,Hip osteoarthritis,Carmen Sanchez Vazquez,12,6,6,2026-05-25,20,Medium
+2286,ARN101890,ARN Bilbao,ACL reconstruction rehabilitation,Pablo Navarro Castro,27,3,24,2026-06-14,0,Low
+2287,ARN101891,ARN Bilbao,Cervicalgia (neck pain),Lucia Gomez Ruiz,10,4,6,2026-05-30,15,Medium
+2288,ARN101892,ARN Barcelona Eixample,"Low back pain, non-specific",Antonio Ortega Vazquez,9,6,3,2026-06-14,0,Low
+2292,ARN101895,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Alba Moreno Ruiz,19,4,15,2026-05-06,39,High
+2294,ARN101897,ARN Barcelona Eixample,"Low back pain, non-specific",Nuria Ruiz Torres,9,2,7,2026-06-14,0,Low
+2297,ARN101900,ARN Madrid Norte,Rotator cuff / shoulder impingement,Paula Ramos Romero,17,5,12,2026-06-08,6,Low
+2302,ARN101905,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Sergio Rodriguez Gonzalez,17,3,14,2026-06-14,0,Low
+2313,ARN101914,ARN Valencia,ACL reconstruction rehabilitation,Beatriz Serrano Garcia,27,5,22,2026-06-09,5,Low
+2315,ARN101916,ARN Barcelona Eixample,"Low back pain, non-specific",Paula Fernandez Gil,11,4,7,2026-06-14,0,Low
+2324,ARN101923,ARN Valencia,"Low back pain, non-specific",Pablo Gil Romero,9,4,5,2026-06-10,4,Low
+2332,ARN101931,ARN Madrid Norte,Hip osteoarthritis,Carmen Diaz Garcia,16,4,12,2026-06-13,1,Low
+2334,ARN101933,ARN Madrid Centro,Knee osteoarthritis,Marta Vazquez Garcia,16,7,9,2026-06-13,1,Low
+2339,ARN101937,ARN Malaga,Plantar fasciitis,Adrian Perez Lopez,13,5,8,2026-05-28,17,Medium
+2344,ARN101940,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Marta Fernandez Ortega,17,3,14,2026-06-11,3,Low
+2366,ARN101956,ARN Barcelona Eixample,Lateral epicondylitis (tennis elbow),Pablo Diaz Martinez,12,3,9,2026-06-12,2,Low
+2377,ARN101965,ARN Madrid Centro,"Low back pain, non-specific",Marta Garcia Gomez,14,8,6,2026-06-09,5,Low
+2384,ARN101970,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Paula Ramos Garcia,16,3,13,2026-06-14,0,Low
+2385,ARN101970,ARN Madrid Centro,Rotator cuff / shoulder impingement,Javier Serrano Fernandez,18,2,16,2026-06-08,6,Low
+2388,ARN101972,ARN Bilbao,Lateral epicondylitis (tennis elbow),Lucia Gomez Ruiz,7,4,3,2026-05-27,18,Medium
+2400,ARN101983,ARN Madrid Norte,Cervicalgia (neck pain),Maria Alvarez Gonzalez,14,4,10,2026-06-12,2,Low
+2401,ARN101984,ARN Madrid Norte,Rotator cuff / shoulder impingement,Alba Moreno Ruiz,11,6,5,2026-06-12,2,Low
+2425,ARN102002,ARN Malaga,ACL reconstruction rehabilitation,Carmen Navarro Moreno,30,3,27,2026-06-09,5,Low
+2426,ARN102003,ARN Madrid Norte,"Low back pain, non-specific",Carmen Martinez Diaz,8,1,7,2026-06-10,4,Low
+2427,ARN102003,ARN Madrid Norte,"Low back pain, non-specific",Jose Romero Navarro,14,3,11,2026-06-13,1,Low
+2428,ARN102003,ARN Madrid Norte,Cervicalgia (neck pain),Jose Romero Navarro,7,2,5,2026-06-12,2,Low
+2433,ARN102008,ARN Bilbao,Knee osteoarthritis,Sara Torres Ruiz,8,3,5,2026-06-09,5,Low
+2435,ARN102010,ARN Barcelona Sants,Rotator cuff / shoulder impingement,David Martinez Sanchez,9,4,5,2026-06-06,8,Low
+2436,ARN102010,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Alba Vazquez Ortega,12,3,9,2026-05-17,28,High
+2440,ARN102012,ARN Madrid Norte,Rotator cuff / shoulder impingement,Paula Gomez Gil,17,3,14,2026-06-13,1,Low
+2446,ARN102016,ARN Sevilla,Cervicalgia (neck pain),Nuria Martinez Garcia,9,6,3,2026-06-08,6,Low
+2447,ARN102017,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Alejandro Rodriguez Serrano,24,5,19,2026-05-23,22,Medium
+2448,ARN102018,ARN Malaga,Lateral ankle sprain,Alejandro Serrano Garcia,7,2,5,2026-06-14,0,Low
+2455,ARN102024,ARN Barcelona Sants,Carpal tunnel syndrome (conservative),Javier Garcia Sanchez,11,1,10,2026-06-07,7,Low
+2463,ARN102031,ARN Malaga,"Low back pain, non-specific",Jose Navarro Gil,15,2,13,2026-06-14,0,Low
+2479,ARN102043,ARN Madrid Centro,"Low back pain, non-specific",Marta Vazquez Garcia,15,3,12,2026-06-01,13,Low
+2481,ARN102045,ARN Bilbao,Rotator cuff / shoulder impingement,David Serrano Gil,14,4,10,2026-06-09,5,Low
+2487,ARN102050,ARN Bilbao,ACL reconstruction rehabilitation,Pablo Navarro Castro,26,9,17,2026-06-13,1,Low
+2491,ARN102054,ARN Madrid Norte,Carpal tunnel syndrome (conservative),Paula Gomez Gil,12,2,10,2026-05-31,14,Medium
+2508,ARN102067,ARN Sevilla,"Low back pain, non-specific",Nuria Martinez Garcia,14,3,11,2026-06-12,2,Low
+2512,ARN102069,ARN Malaga,Knee osteoarthritis,Sara Ruiz Alvarez,14,5,9,2026-06-13,1,Low
+2515,ARN102072,ARN Bilbao,Cervicalgia (neck pain),Sara Torres Ruiz,13,7,6,2026-06-05,9,Low
+2528,ARN102082,ARN Bilbao,Adhesive capsulitis (frozen shoulder),Pablo Navarro Castro,17,8,9,2026-05-25,20,Medium
+2537,ARN102088,ARN Madrid Centro,"Low back pain, non-specific",Manuel Rodriguez Sanchez,16,11,5,2026-05-29,16,Medium
+2559,ARN102106,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Sara Vazquez Sanchez,18,5,13,2026-06-11,3,Low
+2560,ARN102106,ARN Madrid Centro,Knee osteoarthritis,Elena Sanchez Moreno,15,6,9,2026-06-09,5,Low
+2568,ARN102113,ARN Sevilla,Rotator cuff / shoulder impingement,Miguel Garcia Lopez,13,3,10,2026-06-12,2,Low
+2569,ARN102113,ARN Sevilla,Cervicalgia (neck pain),Maria Ruiz Serrano,14,2,12,2026-05-24,21,Medium
+2574,ARN102117,ARN Malaga,Plantar fasciitis,Ivan Fernandez Romero,14,6,8,2026-06-08,6,Low
+2575,ARN102117,ARN Malaga,Rotator cuff / shoulder impingement,Jose Navarro Gil,17,5,12,2026-06-14,0,Low
+2580,ARN102121,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Miguel Rodriguez Sanchez,18,5,13,2026-06-13,1,Low
+2581,ARN102122,ARN Madrid Norte,"Low back pain, non-specific",Marta Torres Rodriguez,8,3,5,2026-06-12,2,Low
+2582,ARN102122,ARN Madrid Norte,Rotator cuff / shoulder impingement,Carmen Vazquez Perez,12,3,9,2026-06-14,0,Low
+2583,ARN102122,ARN Madrid Norte,Rotator cuff / shoulder impingement,Carmen Martinez Diaz,12,5,7,2026-05-25,20,Medium
+2593,ARN102131,ARN Valencia,Hip osteoarthritis,Manuel Rodriguez Ortega,10,3,7,2026-06-10,4,Low
+2596,ARN102134,ARN Madrid Centro,Rotator cuff / shoulder impingement,Marta Garcia Gomez,16,5,11,2026-05-19,26,Medium
+2612,ARN102147,ARN Madrid Norte,Rotator cuff / shoulder impingement,Nuria Castro Moreno,18,5,13,2026-05-09,36,High
+2620,ARN102155,ARN Bilbao,ACL reconstruction rehabilitation,Sara Diaz Gomez,25,11,14,2026-05-14,31,High
+2631,ARN102165,ARN Barcelona Eixample,"Low back pain, non-specific",Antonio Ortega Vazquez,14,3,11,2026-06-13,1,Low
+2644,ARN102174,ARN Valencia,Rotator cuff / shoulder impingement,Sergio Lopez Torres,14,5,9,2026-06-08,6,Low
+2649,ARN102178,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Andrea Vazquez Vazquez,8,4,4,2026-06-11,3,Low
+2653,ARN102182,ARN Valencia,Cervicalgia (neck pain),Francisco Gomez Gil,10,4,6,2026-06-07,7,Low
+2657,ARN102186,ARN Sevilla,Cervicalgia (neck pain),Sara Diaz Diaz,10,3,7,2026-06-13,1,Low
+2658,ARN102186,ARN Sevilla,ACL reconstruction rehabilitation,Francisco Perez Navarro,20,6,14,2026-06-12,2,Low
+2664,ARN102190,ARN Malaga,Rotator cuff / shoulder impingement,Andrea Sanchez Fernandez,13,6,7,2026-06-11,3,Low
+2682,ARN102205,ARN Barcelona Sants,Hip osteoarthritis,Alba Torres Moreno,11,3,8,2026-06-10,4,Low
+2686,ARN102208,ARN Malaga,Knee osteoarthritis,Andrea Sanchez Fernandez,14,10,4,2026-06-05,9,Low
+2694,ARN102215,ARN Bilbao,Knee osteoarthritis,Alba Torres Rodriguez,14,5,9,2026-05-28,17,Medium
+2702,ARN102223,ARN Malaga,Lumbar radiculopathy (sciatica),Andrea Ruiz Torres,13,7,6,2026-06-14,0,Low
+2703,ARN102224,ARN Barcelona Eixample,"Low back pain, non-specific",Javier Ruiz Gomez,13,1,12,2026-05-31,14,Medium
+2704,ARN102225,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Ivan Moreno Fernandez,18,7,11,2026-06-05,9,Low
+2705,ARN102225,ARN Barcelona Sants,"Low back pain, non-specific",Adrian Romero Ramos,16,9,7,2026-06-14,0,Low
+2706,ARN102225,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Jesus Garcia Sanchez,10,5,5,2026-05-26,19,Medium
+2710,ARN102229,ARN Barcelona Sants,Cervicalgia (neck pain),Alba Vazquez Ortega,9,4,5,2026-06-14,0,Low
+2711,ARN102230,ARN Malaga,Rotator cuff / shoulder impingement,Sara Ruiz Alvarez,14,2,12,2026-06-12,2,Low
+2715,ARN102232,ARN Madrid Norte,Cervicalgia (neck pain),Paula Gomez Gil,14,7,7,2026-06-10,4,Low
+2716,ARN102233,ARN Sevilla,Carpal tunnel syndrome (conservative),Sara Diaz Diaz,9,5,4,2026-06-11,3,Low
+2723,ARN102238,ARN Bilbao,Carpal tunnel syndrome (conservative),Alba Torres Rodriguez,7,2,5,2026-06-09,5,Low
+2734,ARN102248,ARN Madrid Norte,Lateral epicondylitis (tennis elbow),Miguel Navarro Perez,8,5,3,2026-06-13,1,Low
+2735,ARN102249,ARN Sevilla,Hip osteoarthritis,Maria Ruiz Serrano,12,2,10,2026-05-30,15,Medium
+2737,ARN102251,ARN Bilbao,Plantar fasciitis,Andrea Fernandez Diaz,9,1,8,2026-06-07,7,Low
+2738,ARN102251,ARN Bilbao,"Low back pain, non-specific",Alba Torres Rodriguez,15,6,9,2026-06-11,3,Low
+2739,ARN102251,ARN Bilbao,"Low back pain, non-specific",Rocio Serrano Gonzalez,14,4,10,2026-06-13,1,Low
+2745,ARN102255,ARN Madrid Centro,Knee osteoarthritis,Sara Vazquez Sanchez,14,5,9,2026-05-05,40,High
+2760,ARN102267,ARN Madrid Norte,"Low back pain, non-specific",Paula Ramos Romero,16,7,9,2026-06-12,2,Low
+2774,ARN102280,ARN Bilbao,Cervicalgia (neck pain),Andrea Fernandez Diaz,12,7,5,2026-06-13,1,Low
+2780,ARN102286,ARN Madrid Centro,Hip osteoarthritis,Marta Ortega Castro,11,5,6,2026-06-04,10,Low
+2782,ARN102287,ARN Barcelona Sants,Knee osteoarthritis,Javier Garcia Sanchez,15,4,11,2026-05-18,27,Medium
+2787,ARN102291,ARN Valencia,Lumbar radiculopathy (sciatica),Beatriz Serrano Garcia,11,2,9,2026-06-08,6,Low
+2793,ARN102297,ARN Barcelona Eixample,Knee osteoarthritis,Javier Ruiz Gomez,14,6,8,2026-05-11,34,High
+2799,ARN102302,ARN Valencia,Knee osteoarthritis,Carlos Alvarez Rodriguez,15,7,8,2026-06-12,2,Low
+2800,ARN102303,ARN Madrid Norte,Knee osteoarthritis,Jesus Sanchez Martinez,10,7,3,2026-05-31,14,Medium
+2813,ARN102313,ARN Barcelona Sants,Knee osteoarthritis,Jesus Garcia Sanchez,8,3,5,2026-06-14,0,Low
+2818,ARN102317,ARN Madrid Centro,Cervicalgia (neck pain),Marta Vazquez Garcia,8,1,7,2026-05-30,15,Medium
+2829,ARN102328,ARN Valencia,Adhesive capsulitis (frozen shoulder),Beatriz Serrano Garcia,24,2,22,2026-06-13,1,Low
+2833,ARN102332,ARN Madrid Centro,"Low back pain, non-specific",Ivan Diaz Fernandez,11,4,7,2026-06-12,2,Low
+2839,ARN102336,ARN Madrid Centro,ACL reconstruction rehabilitation,Ivan Diaz Fernandez,22,16,6,2026-05-12,33,High
+2849,ARN102346,ARN Madrid Centro,Knee osteoarthritis,Ivan Diaz Fernandez,18,2,16,2026-06-13,1,Low
+2852,ARN102349,ARN Valencia,Cervicalgia (neck pain),Francisco Gomez Gil,13,6,7,2026-06-12,2,Low
+2856,ARN102353,ARN Valencia,"Low back pain, non-specific",Ana Gonzalez Torres,12,3,9,2026-06-12,2,Low
+2862,ARN102358,ARN Sevilla,Knee osteoarthritis,Miguel Rodriguez Sanchez,13,5,8,2026-06-04,10,Low
+2863,ARN102359,ARN Madrid Norte,Cervicalgia (neck pain),Elena Moreno Romero,14,3,11,2026-06-11,3,Low
+2864,ARN102360,ARN Bilbao,ACL reconstruction rehabilitation,Jesus Diaz Moreno,17,8,9,2026-06-13,1,Low
+2868,ARN102363,ARN Barcelona Sants,"Low back pain, non-specific",Elena Serrano Fernandez,12,3,9,2026-06-08,6,Low
+2872,ARN102367,ARN Madrid Centro,Hip osteoarthritis,Manuel Rodriguez Sanchez,11,5,6,2026-05-15,30,High
+2874,ARN102368,ARN Madrid Centro,ACL reconstruction rehabilitation,Nuria Romero Ramos,25,17,8,2026-05-16,29,High
+2877,ARN102371,ARN Madrid Centro,ACL reconstruction rehabilitation,Andrea Vazquez Vazquez,25,6,19,2026-04-18,57,High
+2880,ARN102374,ARN Sevilla,Knee osteoarthritis,Daniel Gonzalez Lopez,14,7,7,2026-06-12,2,Low
+2898,ARN102390,ARN Valencia,"Low back pain, non-specific",Rocio Navarro Torres,16,3,13,2026-06-06,8,Low
+2903,ARN102393,ARN Malaga,Lateral epicondylitis (tennis elbow),Andrea Sanchez Fernandez,6,5,1,2026-06-10,4,Low
+2904,ARN102393,ARN Malaga,Lateral epicondylitis (tennis elbow),Javier Romero Navarro,8,3,5,2026-06-08,6,Low
+2925,ARN102409,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Javier Rodriguez Perez,19,8,11,2026-06-11,3,Low
+2928,ARN102412,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Carmen Sanchez Vazquez,23,4,19,2026-06-14,0,Low
+2936,ARN102419,ARN Malaga,Carpal tunnel syndrome (conservative),Cristina Martinez Romero,7,4,3,2026-06-04,10,Low
+2949,ARN102432,ARN Malaga,Lumbar radiculopathy (sciatica),Andrea Ruiz Torres,18,3,15,2026-06-14,0,Low
+2956,ARN102438,ARN Bilbao,Knee osteoarthritis,David Lopez Rodriguez,16,4,12,2026-05-25,20,Medium
+2958,ARN102440,ARN Madrid Centro,ACL reconstruction rehabilitation,Sara Alvarez Gonzalez,30,18,12,2026-06-08,6,Low
+2959,ARN102440,ARN Madrid Centro,"Low back pain, non-specific",Paula Ramos Garcia,11,5,6,2026-06-14,0,Low
+2961,ARN102441,ARN Madrid Norte,Rotator cuff / shoulder impingement,Elena Moreno Romero,11,6,5,2026-06-11,3,Low
+2965,ARN102445,ARN Barcelona Eixample,Lateral epicondylitis (tennis elbow),Carmen Sanchez Vazquez,10,8,2,2026-06-13,1,Low
+2972,ARN102450,ARN Barcelona Eixample,Lateral ankle sprain,Manuel Gomez Lopez,12,7,5,2026-06-02,12,Low
+2984,ARN102459,ARN Barcelona Eixample,Cervicalgia (neck pain),Nuria Ruiz Torres,8,3,5,2026-06-11,3,Low
+2985,ARN102460,ARN Bilbao,"Low back pain, non-specific",Carmen Serrano Castro,8,3,5,2026-06-13,1,Low
+2995,ARN102467,ARN Bilbao,ACL reconstruction rehabilitation,David Lopez Rodriguez,29,18,11,2026-06-12,2,Low
+2998,ARN102470,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Daniel Diaz Gonzalez,15,4,11,2026-06-13,1,Low
+3003,ARN102474,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Jesus Sanchez Martinez,20,5,15,2026-06-14,0,Low
+3004,ARN102474,ARN Madrid Norte,"Low back pain, non-specific",Carmen Vazquez Perez,8,4,4,2026-06-14,0,Low
+3005,ARN102475,ARN Valencia,Lateral epicondylitis (tennis elbow),Adrian Romero Vazquez,12,3,9,2026-06-14,0,Low
+3010,ARN102478,ARN Madrid Norte,"Low back pain, non-specific",Jesus Sanchez Martinez,8,2,6,2026-06-01,13,Low
+3011,ARN102479,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Elena Sanchez Moreno,14,3,11,2026-06-09,5,Low
+3014,ARN102481,ARN Malaga,ACL reconstruction rehabilitation,Adrian Perez Lopez,19,9,10,2026-06-13,1,Low
+3015,ARN102482,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Carmen Martinez Diaz,12,4,8,2026-06-14,0,Low
+3018,ARN102485,ARN Barcelona Eixample,Carpal tunnel syndrome (conservative),Pablo Diaz Martinez,7,3,4,2026-05-29,16,Medium
+3024,ARN102488,ARN Madrid Norte,Carpal tunnel syndrome (conservative),Elena Moreno Romero,11,3,8,2026-06-10,4,Low
+3028,ARN102492,ARN Bilbao,Rotator cuff / shoulder impingement,David Lopez Rodriguez,13,4,9,2026-06-12,2,Low
+3032,ARN102495,ARN Bilbao,Cervicalgia (neck pain),Pablo Gonzalez Vazquez,8,4,4,2026-06-12,2,Low
+3033,ARN102496,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Paula Fernandez Gil,30,6,24,2026-03-28,78,High
+3037,ARN102500,ARN Malaga,"Low back pain, non-specific",Carmen Navarro Moreno,14,2,12,2026-06-10,4,Low
+3047,ARN102509,ARN Malaga,ACL reconstruction rehabilitation,Maria Romero Torres,24,15,9,2026-06-13,1,Low
+3055,ARN102517,ARN Valencia,Adhesive capsulitis (frozen shoulder),Beatriz Serrano Garcia,18,8,10,2026-06-11,3,Low
+3064,ARN102523,ARN Bilbao,Knee osteoarthritis,Jose Navarro Fernandez,18,3,15,2026-06-01,13,Low
+3066,ARN102524,ARN Madrid Centro,Rotator cuff / shoulder impingement,Sara Vazquez Sanchez,14,3,11,2026-05-15,30,High
+3067,ARN102525,ARN Barcelona Sants,Knee osteoarthritis,Ivan Moreno Fernandez,13,3,10,2026-06-08,6,Low
+3068,ARN102526,ARN Barcelona Eixample,"Low back pain, non-specific",Alejandro Rodriguez Serrano,14,3,11,2026-06-14,0,Low
+3083,ARN102537,ARN Madrid Centro,"Low back pain, non-specific",Rocio Martinez Diaz,11,9,2,2026-06-02,12,Low
+3087,ARN102540,ARN Barcelona Eixample,Lateral epicondylitis (tennis elbow),Javier Ruiz Gomez,9,4,5,2026-05-21,24,Medium
+3097,ARN102550,ARN Madrid Centro,"Low back pain, non-specific",Elena Sanchez Moreno,14,5,9,2026-06-11,3,Low
+3105,ARN102556,ARN Barcelona Sants,"Low back pain, non-specific",Adrian Romero Ramos,15,7,8,2026-05-26,19,Medium
+3107,ARN102558,ARN Sevilla,Rotator cuff / shoulder impingement,Francisco Perez Navarro,15,7,8,2026-06-06,8,Low
+3114,ARN102564,ARN Sevilla,"Low back pain, non-specific",Daniel Gonzalez Lopez,10,4,6,2026-06-12,2,Low
+3119,ARN102568,ARN Malaga,"Low back pain, non-specific",Daniel Martinez Fernandez,9,2,7,2026-05-30,15,Medium
+3127,ARN102576,ARN Barcelona Sants,Knee osteoarthritis,Elena Serrano Fernandez,18,11,7,2026-06-13,1,Low
+3136,ARN102583,ARN Bilbao,Adhesive capsulitis (frozen shoulder),Sara Torres Ruiz,21,5,16,2026-06-08,6,Low
+3137,ARN102584,ARN Malaga,ACL reconstruction rehabilitation,Andrea Ruiz Torres,23,4,19,2026-06-12,2,Low
+3143,ARN102588,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Javier Serrano Fernandez,12,8,4,2026-06-06,8,Low
+3148,ARN102593,ARN Malaga,Lateral epicondylitis (tennis elbow),Adrian Perez Lopez,10,1,9,2026-06-04,10,Low
+3151,ARN102594,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Carmen Sanchez Vazquez,24,16,8,2026-06-04,10,Low
+3154,ARN102597,ARN Malaga,Cervicalgia (neck pain),Andrea Ruiz Torres,11,5,6,2026-05-23,22,Medium
+3162,ARN102603,ARN Bilbao,Rotator cuff / shoulder impingement,Pablo Navarro Castro,13,7,6,2026-06-06,8,Low
+3164,ARN102605,ARN Bilbao,Lateral ankle sprain,Lucia Gomez Ruiz,12,4,8,2026-06-14,0,Low
+3181,ARN102618,ARN Barcelona Eixample,Lateral epicondylitis (tennis elbow),Manuel Gomez Lopez,6,3,3,2026-06-09,5,Low
+3184,ARN102621,ARN Madrid Centro,"Low back pain, non-specific",Sara Vazquez Sanchez,15,6,9,2026-05-13,32,High
+3186,ARN102623,ARN Sevilla,ACL reconstruction rehabilitation,Miguel Rodriguez Sanchez,16,10,6,2026-06-02,12,Low
+3189,ARN102625,ARN Sevilla,Knee osteoarthritis,Miguel Garcia Lopez,14,11,3,2026-05-20,25,Medium
+3202,ARN102636,ARN Malaga,"Low back pain, non-specific",Andrea Ruiz Torres,14,3,11,2026-06-05,9,Low
+3207,ARN102639,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Antonio Ortega Vazquez,13,5,8,2026-06-10,4,Low
+3210,ARN102642,ARN Bilbao,Plantar fasciitis,Jesus Diaz Moreno,11,2,9,2026-06-05,9,Low
+3215,ARN102646,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Alejandro Rodriguez Serrano,15,10,5,2026-06-12,2,Low
+3230,ARN102659,ARN Bilbao,Lumbar radiculopathy (sciatica),Laura Castro Navarro,14,4,10,2026-06-12,2,Low
+3241,ARN102668,ARN Sevilla,Cervicalgia (neck pain),Nuria Martinez Garcia,10,3,7,2026-06-11,3,Low
+3243,ARN102670,ARN Sevilla,Lateral ankle sprain,Nuria Martinez Garcia,8,4,4,2026-06-13,1,Low
+3244,ARN102670,ARN Sevilla,Lumbar radiculopathy (sciatica),Maria Ruiz Serrano,18,5,13,2026-06-04,10,Low
+3247,ARN102673,ARN Madrid Norte,"Low back pain, non-specific",Maria Alvarez Gonzalez,8,3,5,2026-06-14,0,Low
+3253,ARN102679,ARN Sevilla,Rotator cuff / shoulder impingement,Elena Navarro Sanchez,14,5,9,2026-06-11,3,Low
+3258,ARN102683,ARN Madrid Centro,Knee osteoarthritis,Andrea Vazquez Vazquez,13,3,10,2026-06-10,4,Low
+3263,ARN102688,ARN Malaga,"Low back pain, non-specific",Andrea Sanchez Fernandez,12,2,10,2026-06-13,1,Low
+3268,ARN102693,ARN Bilbao,Rotator cuff / shoulder impingement,Carmen Serrano Castro,8,4,4,2026-06-13,1,Low
+3269,ARN102694,ARN Valencia,"Low back pain, non-specific",Manuel Rodriguez Ortega,16,4,12,2026-06-13,1,Low
+3270,ARN102694,ARN Valencia,Cervicalgia (neck pain),Alba Vazquez Lopez,13,6,7,2026-06-14,0,Low
+3275,ARN102699,ARN Sevilla,"Low back pain, non-specific",Miguel Garcia Lopez,11,2,9,2026-06-14,0,Low
+3276,ARN102700,ARN Barcelona Eixample,"Low back pain, non-specific",Antonio Ortega Vazquez,14,5,9,2026-06-13,1,Low
+3277,ARN102701,ARN Madrid Centro,Knee osteoarthritis,Manuel Rodriguez Sanchez,8,3,5,2026-06-14,0,Low
+3297,ARN102717,ARN Valencia,Hip osteoarthritis,Carlos Perez Torres,8,3,5,2026-06-07,7,Low
+3300,ARN102720,ARN Bilbao,Plantar fasciitis,David Serrano Gil,12,5,7,2026-06-12,2,Low
+3312,ARN102732,ARN Malaga,Cervicalgia (neck pain),Adrian Perez Lopez,10,4,6,2026-06-08,6,Low
+3324,ARN102744,ARN Valencia,Rotator cuff / shoulder impingement,Carlos Rodriguez Gonzalez,12,7,5,2026-06-06,8,Low
+3326,ARN102746,ARN Malaga,"Low back pain, non-specific",Sara Ruiz Alvarez,14,6,8,2026-06-11,3,Low
+3331,ARN102751,ARN Malaga,Cervicalgia (neck pain),Cristina Martinez Romero,11,6,5,2026-06-09,5,Low
+3338,ARN102757,ARN Madrid Centro,Cervicalgia (neck pain),Nuria Romero Ramos,13,4,9,2026-06-12,2,Low
+3339,ARN102758,ARN Madrid Centro,Rotator cuff / shoulder impingement,Sara Alvarez Gonzalez,12,3,9,2026-06-08,6,Low
+3340,ARN102759,ARN Malaga,Lumbar radiculopathy (sciatica),Sara Ruiz Alvarez,18,4,14,2026-06-14,0,Low
+3342,ARN102761,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Paula Fernandez Gil,10,2,8,2026-06-13,1,Low
+3345,ARN102764,ARN Madrid Centro,Knee osteoarthritis,Manuel Rodriguez Sanchez,8,3,5,2026-05-19,26,Medium
+3346,ARN102764,ARN Madrid Centro,Lateral ankle sprain,Marta Vazquez Garcia,9,1,8,2026-05-25,20,Medium
+3347,ARN102764,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Manuel Ruiz Romero,21,6,15,2026-06-14,0,Low
+3351,ARN102768,ARN Bilbao,Lateral ankle sprain,Jesus Diaz Moreno,12,3,9,2026-06-01,13,Low
+3352,ARN102768,ARN Bilbao,"Low back pain, non-specific",Pablo Gonzalez Vazquez,9,3,6,2026-06-03,11,Low
+3367,ARN102782,ARN Bilbao,Lateral ankle sprain,Pablo Navarro Castro,6,2,4,2026-06-10,4,Low
+3369,ARN102784,ARN Madrid Norte,"Low back pain, non-specific",Paula Gomez Gil,16,3,13,2026-06-12,2,Low
+3372,ARN102786,ARN Malaga,Rotator cuff / shoulder impingement,Ivan Fernandez Romero,17,6,11,2026-05-31,14,Medium
+3379,ARN102792,ARN Madrid Centro,Lateral ankle sprain,Francisco Rodriguez Perez,8,2,6,2026-06-04,10,Low
+3385,ARN102796,ARN Sevilla,Cervicalgia (neck pain),Nuria Martinez Garcia,13,10,3,2026-06-14,0,Low
+3393,ARN102803,ARN Barcelona Eixample,Hip osteoarthritis,Paula Fernandez Gil,13,10,3,2026-05-30,15,Medium
+3400,ARN102810,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Maria Alvarez Gonzalez,14,9,5,2026-06-08,6,Low
+3419,ARN102824,ARN Barcelona Sants,Cervicalgia (neck pain),Beatriz Serrano Ramos,12,2,10,2026-06-04,10,Low
+3420,ARN102824,ARN Barcelona Sants,"Low back pain, non-specific",Javier Garcia Sanchez,12,5,7,2026-06-12,2,Low
+3438,ARN102840,ARN Sevilla,"Low back pain, non-specific",Miguel Rodriguez Sanchez,15,8,7,2026-06-08,6,Low
+3439,ARN102841,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Sara Alvarez Gonzalez,7,3,4,2026-05-31,14,Medium
+3449,ARN102848,ARN Bilbao,ACL reconstruction rehabilitation,Pablo Navarro Castro,19,11,8,2026-06-01,13,Low
+3454,ARN102852,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Paula Perez Serrano,22,10,12,2026-06-13,1,Low
+3456,ARN102854,ARN Madrid Norte,Knee osteoarthritis,Marta Torres Rodriguez,18,11,7,2026-06-14,0,Low
+3475,ARN102870,ARN Barcelona Sants,Lateral ankle sprain,Alejandro Vazquez Perez,10,2,8,2026-06-09,5,Low
+3481,ARN102875,ARN Sevilla,"Low back pain, non-specific",Elena Navarro Sanchez,15,3,12,2026-06-13,1,Low
+3482,ARN102875,ARN Sevilla,Lateral epicondylitis (tennis elbow),Miguel Rodriguez Sanchez,11,5,6,2026-06-09,5,Low
+3483,ARN102876,ARN Madrid Norte,Knee osteoarthritis,Miguel Navarro Perez,14,8,6,2026-05-24,21,Medium
+3484,ARN102877,ARN Madrid Centro,Rotator cuff / shoulder impingement,Marta Vazquez Garcia,13,7,6,2026-06-07,7,Low
+3485,ARN102878,ARN Barcelona Sants,"Low back pain, non-specific",Javier Garcia Sanchez,16,4,12,2026-06-13,1,Low
+3491,ARN102883,ARN Malaga,Lateral epicondylitis (tennis elbow),Carmen Navarro Moreno,12,2,10,2026-06-10,4,Low
+3496,ARN102887,ARN Madrid Centro,"Low back pain, non-specific",Javier Serrano Fernandez,11,7,4,2026-06-10,4,Low
+3498,ARN102889,ARN Valencia,Hip osteoarthritis,Francisco Gomez Gil,13,5,8,2026-06-05,9,Low
+3505,ARN102896,ARN Valencia,"Low back pain, non-specific",Lucia Vazquez Torres,8,5,3,2026-06-14,0,Low
+3509,ARN102898,ARN Malaga,Adhesive capsulitis (frozen shoulder),Andrea Sanchez Fernandez,13,7,6,2026-05-27,18,Medium
+3518,ARN102904,ARN Madrid Centro,Cervicalgia (neck pain),Manuel Rodriguez Sanchez,13,4,9,2026-06-14,0,Low
+3519,ARN102905,ARN Malaga,"Low back pain, non-specific",Jose Navarro Gil,16,7,9,2026-05-08,37,High
+3521,ARN102907,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Manuel Rodriguez Sanchez,18,7,11,2026-06-05,9,Low
+3528,ARN102913,ARN Madrid Norte,Knee osteoarthritis,Jose Romero Navarro,11,2,9,2026-06-10,4,Low
+3532,ARN102917,ARN Bilbao,ACL reconstruction rehabilitation,Alba Torres Rodriguez,23,1,22,2026-06-13,1,Low
+3534,ARN102919,ARN Madrid Norte,Plantar fasciitis,Paula Gomez Gil,7,3,4,2026-06-10,4,Low
+3537,ARN102921,ARN Sevilla,Hip osteoarthritis,Elena Navarro Sanchez,15,5,10,2026-06-11,3,Low
+3538,ARN102921,ARN Sevilla,"Low back pain, non-specific",Pablo Perez Romero,16,3,13,2026-06-11,3,Low
+3539,ARN102922,ARN Sevilla,Plantar fasciitis,Pablo Perez Romero,8,3,5,2026-05-30,15,Medium
+3545,ARN102926,ARN Barcelona Eixample,"Low back pain, non-specific",Paula Fernandez Gil,11,1,10,2026-06-10,4,Low
+3569,ARN102944,ARN Malaga,Lumbar radiculopathy (sciatica),Carmen Navarro Moreno,15,9,6,2026-06-13,1,Low
+3573,ARN102946,ARN Malaga,"Low back pain, non-specific",Andrea Ruiz Torres,13,8,5,2026-06-09,5,Low
+3575,ARN102947,ARN Barcelona Sants,Rotator cuff / shoulder impingement,David Martinez Sanchez,8,6,2,2026-05-30,15,Medium
+3581,ARN102953,ARN Sevilla,ACL reconstruction rehabilitation,Daniel Gonzalez Lopez,20,3,17,2026-06-14,0,Low
+3585,ARN102955,ARN Barcelona Eixample,Knee osteoarthritis,David Gil Navarro,10,4,6,2026-06-13,1,Low
+3590,ARN102959,ARN Barcelona Sants,Knee osteoarthritis,Lucia Ortega Sanchez,15,4,11,2026-05-21,24,Medium
+3594,ARN102962,ARN Sevilla,Rotator cuff / shoulder impingement,Pablo Perez Romero,17,6,11,2026-06-12,2,Low
+3598,ARN102966,ARN Malaga,Adhesive capsulitis (frozen shoulder),Daniel Martinez Fernandez,16,7,9,2026-06-01,13,Low
+3606,ARN102973,ARN Sevilla,ACL reconstruction rehabilitation,Manuel Serrano Martinez,17,5,12,2026-06-14,0,Low
+3625,ARN102989,ARN Bilbao,Hip osteoarthritis,Carmen Serrano Castro,10,4,6,2026-06-13,1,Low
+3631,ARN102995,ARN Barcelona Eixample,Knee osteoarthritis,Paula Fernandez Gil,12,6,6,2026-06-13,1,Low
+3643,ARN103005,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Rocio Martinez Diaz,11,4,7,2026-06-09,5,Low
+3657,ARN103016,ARN Valencia,Carpal tunnel syndrome (conservative),Adrian Romero Vazquez,6,3,3,2026-06-10,4,Low
+3663,ARN103022,ARN Barcelona Sants,"Low back pain, non-specific",Alejandro Vazquez Perez,13,5,8,2026-06-08,6,Low
+3667,ARN103026,ARN Madrid Centro,ACL reconstruction rehabilitation,Javier Rodriguez Perez,25,10,15,2026-05-11,34,High
+3671,ARN103029,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Pablo Diaz Martinez,15,4,11,2026-06-10,4,Low
+3681,ARN103038,ARN Madrid Centro,Rotator cuff / shoulder impingement,Andrea Vazquez Vazquez,18,6,12,2026-05-21,24,Medium
+3685,ARN103041,ARN Madrid Centro,Carpal tunnel syndrome (conservative),Elena Sanchez Moreno,11,7,4,2026-06-09,5,Low
+3690,ARN103046,ARN Malaga,ACL reconstruction rehabilitation,Andrea Ruiz Torres,25,13,12,2026-05-27,18,Medium
+3693,ARN103049,ARN Valencia,Cervicalgia (neck pain),Rocio Navarro Torres,12,10,2,2026-06-09,5,Low
+3707,ARN103059,ARN Madrid Centro,"Low back pain, non-specific",Javier Serrano Fernandez,14,6,8,2026-06-03,11,Low
+3709,ARN103061,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Elena Sanchez Moreno,22,5,17,2026-06-12,2,Low
+3715,ARN103067,ARN Malaga,"Low back pain, non-specific",Sara Ruiz Alvarez,16,3,13,2026-05-09,36,High
+3744,ARN103091,ARN Sevilla,"Low back pain, non-specific",Pablo Perez Romero,14,5,9,2026-06-13,1,Low
+3745,ARN103092,ARN Bilbao,Lumbar radiculopathy (sciatica),Jose Navarro Fernandez,17,2,15,2026-06-09,5,Low
+3758,ARN103102,ARN Malaga,Knee osteoarthritis,Sara Ruiz Alvarez,18,9,9,2026-06-14,0,Low
+3766,ARN103110,ARN Barcelona Sants,"Low back pain, non-specific",Sergio Rodriguez Gonzalez,9,4,5,2026-06-14,0,Low
+3767,ARN103110,ARN Barcelona Sants,"Low back pain, non-specific",David Martinez Sanchez,8,2,6,2026-06-14,0,Low
+3770,ARN103113,ARN Barcelona Sants,ACL reconstruction rehabilitation,Lucia Ortega Sanchez,17,3,14,2026-06-12,2,Low
+3775,ARN103117,ARN Valencia,Cervicalgia (neck pain),Sergio Lopez Torres,13,5,8,2026-06-07,7,Low
+3777,ARN103118,ARN Sevilla,Cervicalgia (neck pain),Sara Diaz Diaz,14,3,11,2026-06-14,0,Low
+3789,ARN103126,ARN Sevilla,"Low back pain, non-specific",Nuria Martinez Garcia,8,5,3,2026-06-10,4,Low
+3790,ARN103126,ARN Sevilla,Plantar fasciitis,Francisco Perez Navarro,10,5,5,2026-06-01,13,Low
+3791,ARN103127,ARN Malaga,Lateral epicondylitis (tennis elbow),Ivan Fernandez Romero,10,2,8,2026-06-14,0,Low
+3792,ARN103128,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Ivan Diaz Fernandez,7,5,2,2026-06-08,6,Low
+3795,ARN103131,ARN Malaga,"Low back pain, non-specific",Javier Romero Navarro,15,6,9,2026-06-09,5,Low
+3819,ARN103151,ARN Sevilla,Lumbar radiculopathy (sciatica),Francisco Perez Navarro,20,10,10,2026-06-12,2,Low
+3820,ARN103152,ARN Madrid Norte,Cervicalgia (neck pain),Jesus Sanchez Martinez,10,3,7,2026-06-12,2,Low
+3821,ARN103153,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Daniel Diaz Gonzalez,18,12,6,2026-06-08,6,Low
+3838,ARN103168,ARN Malaga,Knee osteoarthritis,Carmen Navarro Moreno,12,6,6,2026-06-12,2,Low
+3843,ARN103173,ARN Bilbao,"Low back pain, non-specific",David Serrano Gil,9,3,6,2026-06-13,1,Low
+3844,ARN103174,ARN Barcelona Sants,Cervicalgia (neck pain),Jesus Garcia Sanchez,13,6,7,2026-06-10,4,Low
+3851,ARN103178,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Pablo Diaz Martinez,18,6,12,2026-06-10,4,Low
+3858,ARN103184,ARN Bilbao,Cervicalgia (neck pain),Pablo Navarro Castro,7,4,3,2026-05-29,16,Medium
+3859,ARN103184,ARN Bilbao,Plantar fasciitis,Andrea Fernandez Diaz,9,7,2,2026-06-10,4,Low
+3861,ARN103186,ARN Sevilla,Knee osteoarthritis,Daniel Gonzalez Lopez,14,5,9,2026-06-05,9,Low
+3862,ARN103186,ARN Sevilla,Knee osteoarthritis,Manuel Serrano Martinez,10,5,5,2026-06-10,4,Low
+3863,ARN103187,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),David Martinez Sanchez,15,8,7,2026-06-13,1,Low
+3864,ARN103188,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Sergio Rodriguez Gonzalez,15,7,8,2026-06-03,11,Low
+3869,ARN103192,ARN Bilbao,"Low back pain, non-specific",Jesus Diaz Moreno,8,6,2,2026-06-04,10,Low
+3877,ARN103198,ARN Barcelona Sants,Plantar fasciitis,Javier Alvarez Ruiz,12,4,8,2026-06-14,0,Low
+3886,ARN103204,ARN Malaga,Cervicalgia (neck pain),Andrea Sanchez Fernandez,13,8,5,2026-05-28,17,Medium
+3887,ARN103205,ARN Sevilla,Rotator cuff / shoulder impingement,Sara Diaz Diaz,14,4,10,2026-06-03,11,Low
+3903,ARN103216,ARN Barcelona Sants,"Low back pain, non-specific",Lucia Ortega Sanchez,10,4,6,2026-06-12,2,Low
+3911,ARN103221,ARN Barcelona Sants,Knee osteoarthritis,Alba Vazquez Ortega,10,3,7,2026-06-05,9,Low
+3921,ARN103228,ARN Valencia,Cervicalgia (neck pain),Alba Vazquez Lopez,14,3,11,2026-06-12,2,Low
+3923,ARN103229,ARN Madrid Centro,ACL reconstruction rehabilitation,Marta Garcia Gomez,27,4,23,2026-03-25,81,High
+3942,ARN103244,ARN Madrid Centro,Rotator cuff / shoulder impingement,Marta Vazquez Garcia,15,3,12,2026-06-14,0,Low
+3945,ARN103247,ARN Malaga,Rotator cuff / shoulder impingement,Carmen Navarro Moreno,15,3,12,2026-06-01,13,Low
+3956,ARN103253,ARN Bilbao,Rotator cuff / shoulder impingement,Jose Navarro Fernandez,18,3,15,2026-05-09,36,High
+3958,ARN103255,ARN Bilbao,Rotator cuff / shoulder impingement,Laura Castro Navarro,18,9,9,2026-05-17,28,High
+3959,ARN103256,ARN Barcelona Sants,ACL reconstruction rehabilitation,Beatriz Serrano Ramos,20,14,6,2026-06-12,2,Low
+3960,ARN103257,ARN Valencia,Adhesive capsulitis (frozen shoulder),Alba Vazquez Lopez,20,10,10,2026-05-28,17,Medium
+3962,ARN103259,ARN Bilbao,"Low back pain, non-specific",Pablo Navarro Castro,9,3,6,2026-06-12,2,Low
+3964,ARN103261,ARN Valencia,Rotator cuff / shoulder impingement,Manuel Rodriguez Ortega,13,6,7,2026-06-13,1,Low
+3975,ARN103271,ARN Madrid Norte,ACL reconstruction rehabilitation,Marta Torres Rodriguez,16,2,14,2026-04-14,61,High
+3977,ARN103273,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Javier Alvarez Ruiz,19,9,10,2026-05-14,31,High
+3978,ARN103274,ARN Madrid Centro,Hip osteoarthritis,Andrea Vazquez Vazquez,13,5,8,2026-06-13,1,Low
+3980,ARN103276,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Paula Fernandez Gil,17,6,11,2026-06-14,0,Low
+3984,ARN103280,ARN Madrid Norte,Carpal tunnel syndrome (conservative),Paula Ramos Romero,8,3,5,2026-06-05,9,Low
+3985,ARN103280,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Miguel Navarro Perez,19,6,13,2026-06-13,1,Low
+3986,ARN103281,ARN Barcelona Sants,ACL reconstruction rehabilitation,Adrian Romero Ramos,18,10,8,2026-06-01,13,Low
+3988,ARN103283,ARN Sevilla,Rotator cuff / shoulder impingement,Manuel Serrano Martinez,18,11,7,2026-05-28,17,Medium
+4000,ARN103293,ARN Madrid Centro,"Low back pain, non-specific",Marta Garcia Gomez,8,2,6,2026-06-13,1,Low
+4001,ARN103294,ARN Bilbao,Cervicalgia (neck pain),Rocio Serrano Gonzalez,9,5,4,2026-06-13,1,Low
+4002,ARN103294,ARN Bilbao,"Low back pain, non-specific",Jose Navarro Fernandez,11,3,8,2026-06-14,0,Low
+4004,ARN103296,ARN Valencia,"Low back pain, non-specific",Adrian Torres Perez,16,9,7,2026-05-14,31,High
+4019,ARN103308,ARN Malaga,Lateral epicondylitis (tennis elbow),Alejandro Serrano Garcia,8,3,5,2026-06-12,2,Low
+4029,ARN103316,ARN Bilbao,Lateral epicondylitis (tennis elbow),Carmen Serrano Castro,10,2,8,2026-06-13,1,Low
+4039,ARN103324,ARN Madrid Centro,Plantar fasciitis,Elena Sanchez Moreno,13,1,12,2026-06-06,8,Low
+4044,ARN103329,ARN Sevilla,Knee osteoarthritis,Elena Navarro Sanchez,18,4,14,2026-06-12,2,Low
+4047,ARN103332,ARN Madrid Norte,"Low back pain, non-specific",Marta Torres Rodriguez,11,1,10,2026-06-07,7,Low
+4053,ARN103338,ARN Malaga,Cervicalgia (neck pain),Sara Ruiz Alvarez,9,3,6,2026-06-14,0,Low
+4057,ARN103342,ARN Madrid Centro,"Low back pain, non-specific",Rocio Martinez Diaz,13,10,3,2026-06-10,4,Low
+4059,ARN103342,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Manuel Rodriguez Sanchez,20,13,7,2026-06-14,0,Low
+4067,ARN103350,ARN Barcelona Sants,"Low back pain, non-specific",Adrian Romero Ramos,10,3,7,2026-05-25,20,Medium
+4087,ARN103365,ARN Bilbao,Knee osteoarthritis,David Lopez Rodriguez,17,2,15,2026-06-13,1,Low
+4088,ARN103366,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Javier Ruiz Gomez,28,11,17,2026-06-14,0,Low
+4090,ARN103368,ARN Sevilla,Lumbar radiculopathy (sciatica),Maria Ruiz Serrano,15,5,10,2026-06-11,3,Low
+4094,ARN103370,ARN Valencia,Rotator cuff / shoulder impingement,Ana Gonzalez Torres,14,9,5,2026-06-11,3,Low
+4096,ARN103372,ARN Madrid Centro,"Low back pain, non-specific",Paula Ramos Garcia,16,3,13,2026-06-06,8,Low
+4104,ARN103378,ARN Madrid Norte,Cervicalgia (neck pain),Carmen Martinez Diaz,9,2,7,2026-06-09,5,Low
+4108,ARN103382,ARN Madrid Centro,ACL reconstruction rehabilitation,Marta Vazquez Garcia,24,7,17,2026-06-13,1,Low
+4109,ARN103383,ARN Barcelona Eixample,Knee osteoarthritis,Marta Martinez Garcia,13,4,9,2026-05-16,29,High
+4114,ARN103387,ARN Malaga,"Low back pain, non-specific",Cristina Martinez Romero,9,4,5,2026-06-11,3,Low
+4123,ARN103392,ARN Bilbao,Plantar fasciitis,David Lopez Rodriguez,14,5,9,2026-06-02,12,Low
+4136,ARN103401,ARN Madrid Norte,Cervicalgia (neck pain),Laura Vazquez Gil,9,5,4,2026-05-30,15,Medium
+4137,ARN103402,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Jesus Garcia Sanchez,19,4,15,2026-06-09,5,Low
+4141,ARN103405,ARN Bilbao,Cervicalgia (neck pain),Ana Alvarez Rodriguez,9,1,8,2026-05-20,25,Medium
+4149,ARN103413,ARN Sevilla,Cervicalgia (neck pain),Pablo Perez Romero,8,2,6,2026-06-12,2,Low
+4181,ARN103438,ARN Bilbao,ACL reconstruction rehabilitation,Alba Torres Rodriguez,29,8,21,2026-06-11,3,Low
+4186,ARN103442,ARN Madrid Centro,Plantar fasciitis,Nuria Romero Ramos,8,3,5,2026-05-25,20,Medium
+4192,ARN103447,ARN Valencia,"Low back pain, non-specific",Lucia Vazquez Torres,12,5,7,2026-05-26,19,Medium
+4198,ARN103451,ARN Sevilla,Knee osteoarthritis,Daniel Gonzalez Lopez,16,4,12,2026-06-08,6,Low
+4199,ARN103452,ARN Sevilla,"Low back pain, non-specific",Miguel Garcia Lopez,8,6,2,2026-06-03,11,Low
+4202,ARN103454,ARN Malaga,Lumbar radiculopathy (sciatica),Alejandro Serrano Garcia,18,6,12,2026-06-10,4,Low
+4203,ARN103455,ARN Madrid Centro,"Low back pain, non-specific",Ivan Diaz Fernandez,8,4,4,2026-06-13,1,Low
+4204,ARN103455,ARN Madrid Centro,Hip osteoarthritis,Javier Serrano Fernandez,15,3,12,2026-06-11,3,Low
+4206,ARN103457,ARN Bilbao,"Low back pain, non-specific",David Serrano Gil,10,6,4,2026-06-05,9,Low
+4207,ARN103458,ARN Bilbao,Knee osteoarthritis,Jesus Diaz Moreno,18,11,7,2026-06-14,0,Low
+4209,ARN103460,ARN Malaga,"Low back pain, non-specific",Alejandro Serrano Garcia,9,1,8,2026-06-05,9,Low
+4214,ARN103463,ARN Malaga,ACL reconstruction rehabilitation,Sara Ruiz Alvarez,19,10,9,2026-06-07,7,Low
+4215,ARN103464,ARN Madrid Norte,Rotator cuff / shoulder impingement,Paula Ramos Romero,10,4,6,2026-06-13,1,Low
+4217,ARN103466,ARN Sevilla,Knee osteoarthritis,Sara Diaz Diaz,9,3,6,2026-06-09,5,Low
+4222,ARN103470,ARN Barcelona Eixample,Lumbar radiculopathy (sciatica),Paula Fernandez Gil,12,6,6,2026-05-20,25,Medium
+4231,ARN103477,ARN Bilbao,"Low back pain, non-specific",Sara Diaz Gomez,8,3,5,2026-05-22,23,Medium
+4232,ARN103477,ARN Bilbao,ACL reconstruction rehabilitation,Rocio Serrano Gonzalez,20,5,15,2026-06-08,6,Low
+4233,ARN103477,ARN Bilbao,Lumbar radiculopathy (sciatica),Sara Diaz Gomez,16,7,9,2026-06-12,2,Low
+4234,ARN103478,ARN Sevilla,Rotator cuff / shoulder impingement,Francisco Perez Navarro,11,4,7,2026-06-13,1,Low
+4239,ARN103483,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Sergio Rodriguez Gonzalez,17,2,15,2026-05-17,28,High
+4248,ARN103492,ARN Valencia,Cervicalgia (neck pain),Pablo Gil Romero,12,6,6,2026-05-28,17,Medium
+4252,ARN103495,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Javier Rodriguez Perez,10,3,7,2026-06-13,1,Low
+4262,ARN103504,ARN Barcelona Sants,"Low back pain, non-specific",Alejandro Serrano Ruiz,16,6,10,2026-06-08,6,Low
+4272,ARN103510,ARN Madrid Centro,"Low back pain, non-specific",Paula Ramos Garcia,15,7,8,2026-05-30,15,Medium
+4283,ARN103518,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Nuria Martinez Garcia,19,9,10,2026-06-08,6,Low
+4284,ARN103519,ARN Madrid Centro,ACL reconstruction rehabilitation,Marta Ortega Castro,25,6,19,2026-06-14,0,Low
+4286,ARN103521,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Paula Perez Serrano,15,12,3,2026-06-13,1,Low
+4291,ARN103525,ARN Valencia,Cervicalgia (neck pain),Adrian Romero Vazquez,14,6,8,2026-06-13,1,Low
+4295,ARN103528,ARN Bilbao,Knee osteoarthritis,David Lopez Rodriguez,18,4,14,2026-06-12,2,Low
+4307,ARN103538,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,David Gil Navarro,17,2,15,2026-06-04,10,Low
+4312,ARN103542,ARN Malaga,Rotator cuff / shoulder impingement,Adrian Perez Lopez,17,3,14,2026-06-14,0,Low
+4316,ARN103545,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Carmen Sanchez Vazquez,13,5,8,2026-06-08,6,Low
+4334,ARN103561,ARN Madrid Norte,Cervicalgia (neck pain),Nuria Castro Moreno,10,3,7,2026-06-03,11,Low
+4336,ARN103562,ARN Sevilla,Cervicalgia (neck pain),Cristina Ramos Sanchez,10,2,8,2026-06-14,0,Low
+4343,ARN103567,ARN Bilbao,Lumbar radiculopathy (sciatica),Jesus Diaz Moreno,20,4,16,2026-04-30,45,High
+4344,ARN103568,ARN Madrid Norte,Adhesive capsulitis (frozen shoulder),Miguel Navarro Perez,14,8,6,2026-06-09,5,Low
+4355,ARN103576,ARN Madrid Norte,"Low back pain, non-specific",Nuria Castro Moreno,11,5,6,2026-06-10,4,Low
+4356,ARN103577,ARN Valencia,"Low back pain, non-specific",Manuel Rodriguez Ortega,16,3,13,2026-06-13,1,Low
+4379,ARN103594,ARN Barcelona Eixample,"Low back pain, non-specific",Paula Fernandez Gil,14,3,11,2026-06-13,1,Low
+4384,ARN103598,ARN Barcelona Eixample,Plantar fasciitis,Nuria Ruiz Torres,11,6,5,2026-06-09,5,Low
+4387,ARN103601,ARN Madrid Centro,Lateral ankle sprain,Paula Ramos Garcia,12,5,7,2026-06-13,1,Low
+4390,ARN103604,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Javier Garcia Sanchez,10,2,8,2026-06-09,5,Low
+4391,ARN103605,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Antonio Gomez Diaz,18,3,15,2026-06-14,0,Low
+4401,ARN103614,ARN Valencia,"Low back pain, non-specific",Adrian Romero Vazquez,11,3,8,2026-06-11,3,Low
+4406,ARN103618,ARN Madrid Norte,Lateral ankle sprain,Maria Alvarez Gonzalez,11,6,5,2026-06-14,0,Low
+4415,ARN103627,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Lucia Ortega Sanchez,13,4,9,2026-05-09,36,High
+4427,ARN103637,ARN Madrid Centro,ACL reconstruction rehabilitation,Francisco Rodriguez Perez,19,6,13,2026-04-26,49,High
+4439,ARN103647,ARN Madrid Norte,Hip osteoarthritis,Paula Ramos Romero,16,5,11,2026-06-13,1,Low
+4454,ARN103659,ARN Bilbao,Knee osteoarthritis,Laura Castro Navarro,9,7,2,2026-06-14,0,Low
+4458,ARN103663,ARN Madrid Centro,"Low back pain, non-specific",Paula Ramos Garcia,14,7,7,2026-06-13,1,Low
+4461,ARN103664,ARN Sevilla,ACL reconstruction rehabilitation,Manuel Serrano Martinez,19,6,13,2026-06-13,1,Low
+4462,ARN103665,ARN Madrid Centro,Cervicalgia (neck pain),Ivan Diaz Fernandez,14,7,7,2026-05-26,19,Medium
+4467,ARN103669,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Javier Rodriguez Perez,24,5,19,2026-06-05,9,Low
+4482,ARN103683,ARN Malaga,Lumbar radiculopathy (sciatica),Carmen Navarro Moreno,13,3,10,2026-06-12,2,Low
+4490,ARN103690,ARN Bilbao,Lateral ankle sprain,David Serrano Gil,10,3,7,2026-06-09,5,Low
+4497,ARN103695,ARN Barcelona Eixample,Knee osteoarthritis,Carmen Sanchez Vazquez,15,6,9,2026-06-14,0,Low
+4501,ARN103698,ARN Sevilla,Lateral ankle sprain,Cristina Ramos Sanchez,12,6,6,2026-05-13,32,High
+4523,ARN103719,ARN Madrid Centro,"Low back pain, non-specific",Sara Vazquez Sanchez,14,6,8,2026-05-31,14,Medium
+4524,ARN103719,ARN Madrid Centro,"Low back pain, non-specific",Nuria Romero Ramos,16,3,13,2026-05-31,14,Medium
+4527,ARN103721,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Rocio Martinez Diaz,12,4,8,2026-06-13,1,Low
+4532,ARN103725,ARN Bilbao,Cervicalgia (neck pain),Pablo Gonzalez Vazquez,9,4,5,2026-06-09,5,Low
+4534,ARN103727,ARN Madrid Norte,"Low back pain, non-specific",Manuel Martinez Alvarez,16,4,12,2026-06-09,5,Low
+4545,ARN103738,ARN Valencia,ACL reconstruction rehabilitation,Sergio Lopez Torres,24,3,21,2026-06-12,2,Low
+4547,ARN103740,ARN Madrid Centro,Cervicalgia (neck pain),Javier Rodriguez Perez,11,8,3,2026-05-30,15,Medium
+4553,ARN103746,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Elena Serrano Fernandez,15,4,11,2026-06-13,1,Low
+4554,ARN103746,ARN Barcelona Sants,"Low back pain, non-specific",Jesus Garcia Sanchez,13,4,9,2026-06-13,1,Low
+4555,ARN103747,ARN Bilbao,Knee osteoarthritis,Jose Navarro Fernandez,15,8,7,2026-06-14,0,Low
+4556,ARN103748,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Paula Ramos Garcia,11,1,10,2026-06-05,9,Low
+4558,ARN103750,ARN Madrid Norte,Cervicalgia (neck pain),Carmen Diaz Garcia,8,4,4,2026-06-03,11,Low
+4570,ARN103761,ARN Bilbao,Cervicalgia (neck pain),Pablo Navarro Castro,10,8,2,2026-06-05,9,Low
+4577,ARN103765,ARN Barcelona Sants,Lateral epicondylitis (tennis elbow),Adrian Romero Ramos,12,3,9,2026-06-10,4,Low
+4578,ARN103766,ARN Madrid Norte,"Low back pain, non-specific",Paula Gomez Gil,10,2,8,2026-06-02,12,Low
+4585,ARN103773,ARN Bilbao,Knee osteoarthritis,Rocio Serrano Gonzalez,13,2,11,2026-06-14,0,Low
+4587,ARN103775,ARN Madrid Centro,Lateral ankle sprain,Marta Vazquez Garcia,8,3,5,2026-06-13,1,Low
+4588,ARN103775,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Javier Rodriguez Perez,14,4,10,2026-06-12,2,Low
+4590,ARN103776,ARN Malaga,Lumbar radiculopathy (sciatica),Andrea Ruiz Torres,12,3,9,2026-06-11,3,Low
+4591,ARN103777,ARN Bilbao,Rotator cuff / shoulder impingement,Andrea Fernandez Diaz,10,3,7,2026-06-09,5,Low
+4596,ARN103782,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Antonio Ortega Vazquez,14,2,12,2026-05-12,33,High
+4611,ARN103793,ARN Malaga,Knee osteoarthritis,Adrian Perez Lopez,17,3,14,2026-05-18,27,Medium
+4617,ARN103799,ARN Madrid Norte,"Low back pain, non-specific",Maria Alvarez Gonzalez,8,2,6,2026-06-07,7,Low
+4624,ARN103805,ARN Madrid Centro,Hip osteoarthritis,Sara Alvarez Gonzalez,15,6,9,2026-06-06,8,Low
+4636,ARN103815,ARN Malaga,Cervicalgia (neck pain),Sara Ruiz Alvarez,12,2,10,2026-06-12,2,Low
+4637,ARN103815,ARN Malaga,Carpal tunnel syndrome (conservative),Ivan Fernandez Romero,10,5,5,2026-06-12,2,Low
+4640,ARN103818,ARN Barcelona Eixample,Carpal tunnel syndrome (conservative),Javier Ruiz Gomez,6,2,4,2026-06-09,5,Low
+4650,ARN103827,ARN Malaga,Knee osteoarthritis,Daniel Martinez Fernandez,18,13,5,2026-06-13,1,Low
+4651,ARN103828,ARN Madrid Norte,Knee osteoarthritis,Manuel Martinez Alvarez,14,4,10,2026-06-12,2,Low
+4665,ARN103841,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Lucia Ortega Sanchez,20,3,17,2026-06-14,0,Low
+4669,ARN103845,ARN Valencia,Adhesive capsulitis (frozen shoulder),Adrian Romero Vazquez,12,3,9,2026-06-13,1,Low
+4672,ARN103847,ARN Barcelona Sants,Lateral epicondylitis (tennis elbow),Lucia Ortega Sanchez,12,4,8,2026-06-13,1,Low
+4673,ARN103847,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Sergio Rodriguez Gonzalez,17,6,11,2026-06-05,9,Low
+4694,ARN103864,ARN Madrid Centro,ACL reconstruction rehabilitation,Francisco Rodriguez Perez,19,11,8,2026-06-05,9,Low
+4695,ARN103864,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Francisco Rodriguez Perez,22,5,17,2026-06-10,4,Low
+4696,ARN103865,ARN Bilbao,Hip osteoarthritis,Jose Navarro Fernandez,16,9,7,2026-06-12,2,Low
+4697,ARN103866,ARN Madrid Norte,ACL reconstruction rehabilitation,Nuria Castro Moreno,29,17,12,2026-05-19,26,Medium
+4715,ARN103879,ARN Malaga,"Low back pain, non-specific",Sara Ruiz Alvarez,12,3,9,2026-06-12,2,Low
+4718,ARN103882,ARN Madrid Norte,Rotator cuff / shoulder impingement,Carmen Diaz Garcia,15,9,6,2026-05-30,15,Medium
+4724,ARN103888,ARN Barcelona Sants,ACL reconstruction rehabilitation,Ivan Moreno Fernandez,19,6,13,2026-06-14,0,Low
+4727,ARN103891,ARN Sevilla,Rotator cuff / shoulder impingement,Sara Diaz Diaz,18,2,16,2026-06-12,2,Low
+4739,ARN103901,ARN Sevilla,ACL reconstruction rehabilitation,Francisco Perez Navarro,22,8,14,2026-06-08,6,Low
+4750,ARN103912,ARN Barcelona Sants,Lateral ankle sprain,Ivan Moreno Fernandez,12,1,11,2026-06-12,2,Low
+4752,ARN103914,ARN Malaga,Adhesive capsulitis (frozen shoulder),Alejandro Serrano Garcia,16,7,9,2026-06-07,7,Low
+4762,ARN103922,ARN Madrid Centro,Knee osteoarthritis,Andrea Vazquez Vazquez,8,4,4,2026-06-14,0,Low
+4763,ARN103923,ARN Bilbao,Knee osteoarthritis,Ana Alvarez Rodriguez,8,3,5,2026-06-13,1,Low
+4774,ARN103931,ARN Malaga,Cervicalgia (neck pain),Lucia Sanchez Alvarez,6,3,3,2026-06-14,0,Low
+4775,ARN103932,ARN Bilbao,Rotator cuff / shoulder impingement,Pablo Gonzalez Vazquez,18,7,11,2026-06-12,2,Low
+4781,ARN103937,ARN Madrid Norte,Cervicalgia (neck pain),Miguel Navarro Perez,12,2,10,2026-06-09,5,Low
+4794,ARN103948,ARN Bilbao,Knee osteoarthritis,Alba Torres Rodriguez,16,3,13,2026-06-10,4,Low
+4795,ARN103948,ARN Bilbao,"Low back pain, non-specific",Sara Torres Ruiz,13,2,11,2026-06-14,0,Low
+4811,ARN103962,ARN Bilbao,"Low back pain, non-specific",Pablo Gonzalez Vazquez,13,5,8,2026-06-13,1,Low
+4815,ARN103966,ARN Valencia,Lateral ankle sprain,Adrian Torres Perez,11,4,7,2026-06-14,0,Low
+4826,ARN103976,ARN Barcelona Eixample,Hip osteoarthritis,Paula Fernandez Gil,15,3,12,2026-06-13,1,Low
+4828,ARN103977,ARN Madrid Centro,Lateral ankle sprain,Javier Rodriguez Perez,12,6,6,2026-06-14,0,Low
+4829,ARN103977,ARN Madrid Centro,Knee osteoarthritis,Manuel Rodriguez Sanchez,8,5,3,2026-05-30,15,Medium
+4830,ARN103977,ARN Madrid Centro,Cervicalgia (neck pain),Manuel Ruiz Romero,13,3,10,2026-06-09,5,Low
+4832,ARN103979,ARN Madrid Centro,ACL reconstruction rehabilitation,Manuel Ruiz Romero,30,16,14,2026-05-26,19,Medium
+4840,ARN103985,ARN Sevilla,ACL reconstruction rehabilitation,Cristina Ramos Sanchez,19,8,11,2026-06-13,1,Low
+4842,ARN103986,ARN Madrid Centro,Plantar fasciitis,Sara Vazquez Sanchez,12,6,6,2026-05-12,33,High
+4845,ARN103988,ARN Sevilla,Carpal tunnel syndrome (conservative),Miguel Rodriguez Sanchez,9,4,5,2026-06-07,7,Low
+4864,ARN104003,ARN Bilbao,Rotator cuff / shoulder impingement,Pablo Navarro Castro,16,8,8,2026-06-14,0,Low
+4865,ARN104004,ARN Barcelona Eixample,Cervicalgia (neck pain),Manuel Gomez Lopez,11,7,4,2026-05-26,19,Medium
+4867,ARN104006,ARN Sevilla,Plantar fasciitis,Cristina Ramos Sanchez,14,6,8,2026-06-14,0,Low
+4872,ARN104011,ARN Barcelona Sants,"Low back pain, non-specific",Javier Garcia Sanchez,15,3,12,2026-06-14,0,Low
+4875,ARN104014,ARN Madrid Centro,"Low back pain, non-specific",Sara Vazquez Sanchez,11,1,10,2026-05-28,17,Medium
+4882,ARN104020,ARN Malaga,Adhesive capsulitis (frozen shoulder),Andrea Sanchez Fernandez,13,2,11,2026-06-05,9,Low
+4894,ARN104032,ARN Madrid Centro,Rotator cuff / shoulder impingement,Javier Serrano Fernandez,17,5,12,2026-06-09,5,Low
+4896,ARN104034,ARN Barcelona Sants,"Low back pain, non-specific",Lucia Ortega Sanchez,12,4,8,2026-06-14,0,Low
+4903,ARN104039,ARN Barcelona Eixample,Knee osteoarthritis,Marta Fernandez Ortega,13,4,9,2026-05-26,19,Medium
+4930,ARN104062,ARN Madrid Norte,Carpal tunnel syndrome (conservative),Elena Moreno Romero,9,4,5,2026-06-14,0,Low
+4931,ARN104063,ARN Malaga,"Low back pain, non-specific",Adrian Perez Lopez,14,9,5,2026-06-07,7,Low
+4945,ARN104076,ARN Barcelona Sants,"Low back pain, non-specific",Sergio Rodriguez Gonzalez,16,8,8,2026-06-12,2,Low
+4950,ARN104080,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Daniel Diaz Gonzalez,16,11,5,2026-06-13,1,Low
+4952,ARN104082,ARN Bilbao,"Low back pain, non-specific",Laura Castro Navarro,15,5,10,2026-05-12,33,High
+4955,ARN104085,ARN Sevilla,Lumbar radiculopathy (sciatica),Pablo Perez Romero,10,7,3,2026-06-14,0,Low
+4956,ARN104086,ARN Barcelona Sants,Lateral epicondylitis (tennis elbow),Javier Alvarez Ruiz,11,3,8,2026-05-26,19,Medium
+4957,ARN104087,ARN Barcelona Eixample,Knee osteoarthritis,Nuria Ruiz Torres,13,7,6,2026-05-24,21,Medium
+4960,ARN104089,ARN Sevilla,Lumbar radiculopathy (sciatica),Manuel Serrano Martinez,13,5,8,2026-06-14,0,Low
+4963,ARN104091,ARN Barcelona Sants,"Low back pain, non-specific",Sergio Rodriguez Gonzalez,8,2,6,2026-06-11,3,Low
+4966,ARN104094,ARN Sevilla,Hip osteoarthritis,Francisco Perez Navarro,8,2,6,2026-06-11,3,Low
+4970,ARN104097,ARN Valencia,Adhesive capsulitis (frozen shoulder),Lucia Vazquez Torres,14,4,10,2026-06-02,12,Low
+4977,ARN104103,ARN Barcelona Eixample,"Low back pain, non-specific",Marta Martinez Garcia,12,9,3,2026-06-09,5,Low
+4983,ARN104109,ARN Valencia,Knee osteoarthritis,Adrian Torres Perez,18,11,7,2026-06-05,9,Low
+4987,ARN104112,ARN Valencia,Knee osteoarthritis,Manuel Rodriguez Ortega,12,7,5,2026-06-13,1,Low
+5012,ARN104131,ARN Barcelona Eixample,"Low back pain, non-specific",Marta Fernandez Ortega,8,3,5,2026-06-09,5,Low
+5018,ARN104135,ARN Madrid Centro,Rotator cuff / shoulder impingement,Andrea Vazquez Vazquez,18,12,6,2026-05-02,43,High
+5030,ARN104145,ARN Barcelona Sants,Lateral ankle sprain,Alba Vazquez Ortega,6,2,4,2026-06-11,3,Low
+5051,ARN104164,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Ivan Diaz Fernandez,8,7,1,2026-06-12,2,Low
+5054,ARN104166,ARN Valencia,"Low back pain, non-specific",Rocio Navarro Torres,9,4,5,2026-06-08,6,Low
+5065,ARN104174,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Marta Vazquez Garcia,19,12,7,2026-06-02,12,Low
+5069,ARN104176,ARN Malaga,Adhesive capsulitis (frozen shoulder),Lucia Sanchez Alvarez,19,9,10,2026-04-27,48,High
+5074,ARN104180,ARN Valencia,Knee osteoarthritis,Adrian Torres Perez,10,7,3,2026-06-11,3,Low
+5096,ARN104194,ARN Barcelona Eixample,Adhesive capsulitis (frozen shoulder),Antonio Ortega Vazquez,17,6,11,2026-05-13,32,High
+5097,ARN104195,ARN Malaga,Lumbar radiculopathy (sciatica),Sara Ruiz Alvarez,15,7,8,2026-06-14,0,Low
+5099,ARN104197,ARN Malaga,"Low back pain, non-specific",Alejandro Serrano Garcia,16,7,9,2026-05-17,28,High
+5108,ARN104205,ARN Valencia,"Low back pain, non-specific",Francisco Gomez Gil,11,3,8,2026-06-12,2,Low
+5127,ARN104219,ARN Madrid Norte,Lumbar radiculopathy (sciatica),Paula Gomez Gil,17,6,11,2026-06-13,1,Low
+5129,ARN104220,ARN Bilbao,"Low back pain, non-specific",Jose Navarro Fernandez,8,4,4,2026-06-08,6,Low
+5133,ARN104223,ARN Valencia,Lateral ankle sprain,Carlos Alvarez Rodriguez,9,4,5,2026-06-12,2,Low
+5137,ARN104226,ARN Sevilla,Lateral ankle sprain,Nuria Martinez Garcia,8,5,3,2026-06-10,4,Low
+5138,ARN104226,ARN Sevilla,ACL reconstruction rehabilitation,Elena Navarro Sanchez,25,11,14,2026-06-13,1,Low
+5139,ARN104226,ARN Sevilla,Plantar fasciitis,Francisco Perez Navarro,7,3,4,2026-06-13,1,Low
+5155,ARN104239,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Javier Serrano Fernandez,11,5,6,2026-06-13,1,Low
+5158,ARN104242,ARN Madrid Centro,Lumbar radiculopathy (sciatica),Marta Ortega Castro,15,7,8,2026-04-30,45,High
+5162,ARN104245,ARN Madrid Centro,"Low back pain, non-specific",Marta Garcia Gomez,9,4,5,2026-06-05,9,Low
+5166,ARN104249,ARN Valencia,Knee osteoarthritis,Ana Gonzalez Torres,16,6,10,2026-06-11,3,Low
+5168,ARN104250,ARN Madrid Norte,Rotator cuff / shoulder impingement,Paula Perez Serrano,13,6,7,2026-05-20,25,Medium
+5170,ARN104252,ARN Malaga,Cervicalgia (neck pain),Ivan Fernandez Romero,12,6,6,2026-06-11,3,Low
+5173,ARN104255,ARN Malaga,Rotator cuff / shoulder impingement,Lucia Sanchez Alvarez,11,5,6,2026-06-02,12,Low
+5182,ARN104264,ARN Madrid Norte,Knee osteoarthritis,Carmen Diaz Garcia,12,3,9,2026-06-07,7,Low
+5183,ARN104265,ARN Sevilla,"Low back pain, non-specific",Maria Ruiz Serrano,8,3,5,2026-06-09,5,Low
+5200,ARN104278,ARN Barcelona Sants,"Low back pain, non-specific",Javier Garcia Sanchez,12,4,8,2026-06-12,2,Low
+5206,ARN104283,ARN Sevilla,Plantar fasciitis,Miguel Garcia Lopez,6,3,3,2026-06-05,9,Low
+5207,ARN104284,ARN Barcelona Eixample,Lateral ankle sprain,Nuria Ruiz Torres,9,2,7,2026-06-11,3,Low
+5240,ARN104310,ARN Barcelona Sants,Lateral epicondylitis (tennis elbow),Alejandro Serrano Ruiz,6,3,3,2026-06-14,0,Low
+5242,ARN104312,ARN Bilbao,Cervicalgia (neck pain),Jose Navarro Fernandez,12,4,8,2026-05-12,33,High
+5254,ARN104321,ARN Barcelona Eixample,"Low back pain, non-specific",Pablo Diaz Martinez,10,6,4,2026-05-29,16,Medium
+5268,ARN104332,ARN Malaga,"Low back pain, non-specific",Alejandro Serrano Garcia,11,4,7,2026-06-12,2,Low
+5271,ARN104335,ARN Sevilla,Knee osteoarthritis,Daniel Gonzalez Lopez,15,7,8,2026-05-20,25,Medium
+5278,ARN104341,ARN Barcelona Sants,Hip osteoarthritis,Javier Garcia Sanchez,8,3,5,2026-06-14,0,Low
+5280,ARN104342,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Elena Serrano Fernandez,24,8,16,2026-04-13,62,High
+5281,ARN104343,ARN Barcelona Sants,Lumbar radiculopathy (sciatica),Daniel Diaz Gonzalez,13,1,12,2026-06-04,10,Low
+5303,ARN104362,ARN Malaga,"Low back pain, non-specific",Andrea Sanchez Fernandez,14,5,9,2026-05-21,24,Medium
+5307,ARN104364,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Pablo Diaz Martinez,18,2,16,2026-06-10,4,Low
+5311,ARN104367,ARN Bilbao,Lumbar radiculopathy (sciatica),Alba Torres Rodriguez,17,10,7,2026-05-10,35,High
+5321,ARN104374,ARN Madrid Centro,"Low back pain, non-specific",Javier Serrano Fernandez,11,1,10,2026-05-22,23,Medium
+5323,ARN104376,ARN Bilbao,Knee osteoarthritis,Pablo Gonzalez Vazquez,16,6,10,2026-06-14,0,Low
+5325,ARN104376,ARN Bilbao,Knee osteoarthritis,Laura Castro Navarro,18,6,12,2026-06-12,2,Low
+5327,ARN104377,ARN Barcelona Eixample,ACL reconstruction rehabilitation,Manuel Gomez Lopez,19,6,13,2026-05-19,26,Medium
+5329,ARN104379,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Rocio Martinez Diaz,16,2,14,2026-06-07,7,Low
+5330,ARN104380,ARN Madrid Centro,Lateral epicondylitis (tennis elbow),Javier Rodriguez Perez,11,8,3,2026-06-11,3,Low
+5350,ARN104396,ARN Valencia,Rotator cuff / shoulder impingement,Carlos Rodriguez Gonzalez,10,6,4,2026-05-29,16,Medium
+5357,ARN104401,ARN Sevilla,Adhesive capsulitis (frozen shoulder),Pablo Perez Romero,18,13,5,2026-06-14,0,Low
+5372,ARN104413,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Javier Ruiz Gomez,16,7,9,2026-06-08,6,Low
+5373,ARN104414,ARN Malaga,Rotator cuff / shoulder impingement,Ivan Fernandez Romero,10,6,4,2026-06-08,6,Low
+5379,ARN104420,ARN Sevilla,ACL reconstruction rehabilitation,Miguel Rodriguez Sanchez,30,18,12,2026-05-21,24,Medium
+5388,ARN104429,ARN Madrid Centro,Adhesive capsulitis (frozen shoulder),Manuel Ruiz Romero,14,5,9,2026-05-19,26,Medium
+5392,ARN104433,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Marta Fernandez Ortega,17,6,11,2026-04-15,60,High
+5408,ARN104449,ARN Barcelona Eixample,Rotator cuff / shoulder impingement,Paula Fernandez Gil,14,4,10,2026-04-29,46,High
+5413,ARN104454,ARN Madrid Norte,Knee osteoarthritis,Jose Romero Navarro,18,10,8,2026-06-10,4,Low
+5418,ARN104459,ARN Valencia,"Low back pain, non-specific",Beatriz Serrano Garcia,11,5,6,2026-05-16,29,High
+5419,ARN104460,ARN Valencia,"Low back pain, non-specific",Francisco Gomez Gil,14,6,8,2026-06-13,1,Low
+5425,ARN104465,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Beatriz Serrano Ramos,16,4,12,2026-06-09,5,Low
+5430,ARN104468,ARN Barcelona Sants,Adhesive capsulitis (frozen shoulder),Sergio Rodriguez Gonzalez,20,9,11,2026-06-10,4,Low
+5433,ARN104471,ARN Barcelona Sants,Cervicalgia (neck pain),David Martinez Sanchez,12,1,11,2026-05-01,44,High
+5436,ARN104474,ARN Barcelona Eixample,Lateral ankle sprain,Marta Fernandez Ortega,7,3,4,2026-06-12,2,Low
+5460,ARN104495,ARN Malaga,"Low back pain, non-specific",Ivan Fernandez Romero,12,10,2,2026-06-01,13,Low
+5462,ARN104497,ARN Valencia,Cervicalgia (neck pain),Rocio Navarro Torres,10,6,4,2026-06-14,0,Low
+5464,ARN104499,ARN Barcelona Sants,Rotator cuff / shoulder impingement,Ivan Moreno Fernandez,16,7,9,2026-05-07,38,High

@@ -1,0 +1,101 @@
+{
+  "resourceType": "Bundle",
+  "id": "bundle-episode-6001",
+  "type": "transaction",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:patient-1001",
+      "resource": {
+        "resourceType": "Patient",
+        "identifier": [{ "system": "http://atlas-rehab.example.org/mrn", "value": "ARN101001" }],
+        "name": [{ "family": "Garcia Lopez", "given": ["Ana"] }],
+        "gender": "female",
+        "birthDate": "1979-04-12"
+      },
+      "request": { "method": "PUT", "url": "Patient?identifier=http://atlas-rehab.example.org/mrn|ARN101001" }
+    },
+    {
+      "fullUrl": "urn:uuid:condition-7001",
+      "resource": {
+        "resourceType": "Condition",
+        "clinicalStatus": { "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", "code": "active" }] },
+        "category": [{ "coding": [{ "system": "http://terminology.hl7.org/CodeSystem/condition-category", "code": "encounter-diagnosis" }] }],
+        "code": { "coding": [
+          { "system": "http://snomed.info/sct", "code": "279039007", "display": "Low back pain" },
+          { "system": "http://hl7.org/fhir/sid/icd-10", "code": "M54.5", "display": "Low back pain" }
+        ] },
+        "subject": { "reference": "urn:uuid:patient-1001" },
+        "recordedDate": "2025-09-08"
+      },
+      "request": { "method": "POST", "url": "Condition" }
+    },
+    {
+      "fullUrl": "urn:uuid:careplan-6001",
+      "resource": {
+        "resourceType": "CarePlan",
+        "status": "active",
+        "intent": "plan",
+        "title": "Rehabilitation plan - Low back pain",
+        "subject": { "reference": "urn:uuid:patient-1001" },
+        "addresses": [{ "reference": "urn:uuid:condition-7001" }],
+        "period": { "start": "2025-09-08" }
+      },
+      "request": { "method": "POST", "url": "CarePlan" }
+    },
+    {
+      "fullUrl": "urn:uuid:appointment-50001",
+      "resource": {
+        "resourceType": "Appointment",
+        "status": "fulfilled",
+        "start": "2025-09-08T09:00:00+02:00",
+        "end": "2025-09-08T09:45:00+02:00",
+        "created": "2025-09-03",
+        "basedOn": [{ "reference": "urn:uuid:careplan-6001" }],
+        "participant": [
+          { "actor": { "reference": "urn:uuid:patient-1001" }, "status": "accepted" },
+          { "actor": { "reference": "Practitioner/pr-23" }, "status": "accepted" }
+        ]
+      },
+      "request": { "method": "POST", "url": "Appointment" }
+    },
+    {
+      "fullUrl": "urn:uuid:encounter-40001",
+      "resource": {
+        "resourceType": "Encounter",
+        "status": "finished",
+        "class": { "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode", "code": "AMB" },
+        "subject": { "reference": "urn:uuid:patient-1001" },
+        "appointment": [{ "reference": "urn:uuid:appointment-50001" }],
+        "reasonReference": [{ "reference": "urn:uuid:condition-7001" }],
+        "period": { "start": "2025-09-08T09:00:00+02:00", "end": "2025-09-08T09:45:00+02:00" }
+      },
+      "request": { "method": "POST", "url": "Encounter" }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-90001",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": { "coding": [{ "system": "http://loinc.org", "code": "77564-3", "display": "Oswestry Disability Index total score" }] },
+        "subject": { "reference": "urn:uuid:patient-1001" },
+        "encounter": { "reference": "urn:uuid:encounter-40001" },
+        "effectiveDateTime": "2025-09-08T09:20:00+02:00",
+        "valueQuantity": { "value": 44, "unit": "%", "system": "http://unitsofmeasure.org", "code": "%" }
+      },
+      "request": { "method": "POST", "url": "Observation" }
+    },
+    {
+      "fullUrl": "urn:uuid:obs-90002",
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": { "coding": [{ "system": "http://loinc.org", "code": "72514-3", "display": "Pain severity - 0-10 verbal numeric rating" }] },
+        "subject": { "reference": "urn:uuid:patient-1001" },
+        "encounter": { "reference": "urn:uuid:encounter-40001" },
+        "effectiveDateTime": "2025-09-08T09:20:00+02:00",
+        "valueQuantity": { "value": 7, "unit": "{score}", "system": "http://unitsofmeasure.org", "code": "{score}" }
+      },
+      "request": { "method": "POST", "url": "Observation" }
+    }
+  ]
+}

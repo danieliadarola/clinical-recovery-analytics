@@ -1,0 +1,91 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "task": "no-show prediction (binary)",
+  "split": "time-based at 2026-01-01",
+  "n_train": 31093,
+  "n_test": 27445,
+  "metrics_gradient_boosting": {
+    "n": 27445,
+    "positive_rate": 0.1228,
+    "threshold": 0.5,
+    "auroc": 0.5875,
+    "auprc": 0.1573,
+    "auprc_lift_vs_base": 1.28,
+    "brier": 0.1068,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "metrics_logistic_baseline": {
+    "n": 27445,
+    "positive_rate": 0.1228,
+    "threshold": 0.5,
+    "auroc": 0.5907,
+    "auprc": 0.1613,
+    "auprc_lift_vs_base": 1.31,
+    "brier": 0.1066,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "top_decile_noshow_rate": 0.1822,
+  "top_decile_lift": 1.48,
+  "permutation_importance_auroc_drop": [
+    [
+      "lead_time_days",
+      0.0372
+    ],
+    [
+      "clinic_id",
+      0.0312
+    ],
+    [
+      "age",
+      0.0141
+    ],
+    [
+      "session_number",
+      0.0051
+    ],
+    [
+      "prior_noshows",
+      0.0011
+    ],
+    [
+      "gender",
+      0.0007
+    ],
+    [
+      "insurance_type",
+      0.0006
+    ],
+    [
+      "prior_appts",
+      0.0004
+    ],
+    [
+      "month",
+      0.0002
+    ],
+    [
+      "is_initial",
+      0.0
+    ],
+    [
+      "weekday",
+      -0.0003
+    ],
+    [
+      "service_type",
+      -0.0008
+    ],
+    [
+      "hour",
+      -0.001
+    ],
+    [
+      "prior_noshow_rate",
+      -0.0035
+    ]
+  ]
+}

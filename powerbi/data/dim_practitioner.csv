@@ -1,0 +1,114 @@
+practitioner_id,practitioner_name,specialty,seniority,clinic_id,clinic_name,active
+1,Francisco Rodriguez Perez,Orthopaedic / post-surgical,Lead,1,ARN Madrid Centro,true
+2,Paula Ramos Garcia,Sports physiotherapy,Lead,1,ARN Madrid Centro,true
+3,Marta Garcia Gomez,Orthopaedic / post-surgical,Senior,1,ARN Madrid Centro,true
+4,Elena Sanchez Moreno,Geriatric physiotherapy,Lead,1,ARN Madrid Centro,true
+5,Sara Vazquez Sanchez,Neurological physiotherapy,Senior,1,ARN Madrid Centro,true
+6,Javier Serrano Fernandez,Orthopaedic / post-surgical,Junior,1,ARN Madrid Centro,true
+7,Manuel Rodriguez Sanchez,Musculoskeletal physiotherapy,Senior,1,ARN Madrid Centro,true
+8,Marta Ortega Castro,Musculoskeletal physiotherapy,Junior,1,ARN Madrid Centro,true
+9,Sara Alvarez Gonzalez,Neurological physiotherapy,Lead,1,ARN Madrid Centro,true
+10,Rocio Martinez Diaz,Sports physiotherapy,Junior,1,ARN Madrid Centro,true
+11,Ivan Diaz Fernandez,Orthopaedic / post-surgical,Senior,1,ARN Madrid Centro,true
+12,Andrea Vazquez Vazquez,Musculoskeletal physiotherapy,Lead,1,ARN Madrid Centro,true
+13,Javier Rodriguez Perez,Sports physiotherapy,Junior,1,ARN Madrid Centro,true
+14,Nuria Romero Ramos,Musculoskeletal physiotherapy,Senior,1,ARN Madrid Centro,true
+15,Marta Vazquez Garcia,Orthopaedic / post-surgical,Junior,1,ARN Madrid Centro,true
+16,Manuel Ruiz Romero,Musculoskeletal physiotherapy,Junior,1,ARN Madrid Centro,true
+17,Paula Gomez Gil,Neurological physiotherapy,Senior,2,ARN Madrid Norte,true
+18,Laura Vazquez Gil,Neurological physiotherapy,Lead,2,ARN Madrid Norte,true
+19,Alba Moreno Ruiz,Musculoskeletal physiotherapy,Junior,2,ARN Madrid Norte,true
+20,Carmen Vazquez Perez,Musculoskeletal physiotherapy,Senior,2,ARN Madrid Norte,true
+21,Paula Ramos Romero,Neurological physiotherapy,Lead,2,ARN Madrid Norte,true
+22,Nuria Castro Moreno,Sports physiotherapy,Lead,2,ARN Madrid Norte,true
+23,Carmen Diaz Garcia,Sports physiotherapy,Junior,2,ARN Madrid Norte,true
+24,Carmen Martinez Diaz,Musculoskeletal physiotherapy,Junior,2,ARN Madrid Norte,true
+25,Paula Perez Serrano,Sports physiotherapy,Junior,2,ARN Madrid Norte,true
+26,Elena Moreno Romero,Sports physiotherapy,Junior,2,ARN Madrid Norte,true
+27,Manuel Martinez Alvarez,Orthopaedic / post-surgical,Junior,2,ARN Madrid Norte,true
+28,Marta Torres Rodriguez,Geriatric physiotherapy,Junior,2,ARN Madrid Norte,true
+29,Jesus Sanchez Martinez,Orthopaedic / post-surgical,Lead,2,ARN Madrid Norte,true
+30,Jose Romero Navarro,Sports physiotherapy,Senior,2,ARN Madrid Norte,true
+31,Maria Alvarez Gonzalez,Neurological physiotherapy,Senior,2,ARN Madrid Norte,true
+32,Miguel Navarro Perez,Musculoskeletal physiotherapy,Junior,2,ARN Madrid Norte,true
+33,Pablo Diaz Martinez,Musculoskeletal physiotherapy,Senior,3,ARN Barcelona Eixample,true
+34,Manuel Gomez Lopez,Sports physiotherapy,Junior,3,ARN Barcelona Eixample,true
+35,Alejandro Rodriguez Serrano,Sports physiotherapy,Lead,3,ARN Barcelona Eixample,true
+36,Marta Fernandez Ortega,Orthopaedic / post-surgical,Junior,3,ARN Barcelona Eixample,true
+37,Nuria Ruiz Torres,Musculoskeletal physiotherapy,Junior,3,ARN Barcelona Eixample,true
+38,Paula Fernandez Gil,Musculoskeletal physiotherapy,Senior,3,ARN Barcelona Eixample,true
+39,Javier Ruiz Gomez,Sports physiotherapy,Lead,3,ARN Barcelona Eixample,true
+40,Antonio Ortega Vazquez,Musculoskeletal physiotherapy,Junior,3,ARN Barcelona Eixample,true
+41,Carmen Sanchez Vazquez,Musculoskeletal physiotherapy,Senior,3,ARN Barcelona Eixample,true
+42,David Gil Navarro,Musculoskeletal physiotherapy,Junior,3,ARN Barcelona Eixample,true
+43,Marta Martinez Garcia,Musculoskeletal physiotherapy,Junior,3,ARN Barcelona Eixample,true
+44,Jesus Garcia Sanchez,Musculoskeletal physiotherapy,Junior,4,ARN Barcelona Sants,true
+45,Alejandro Vazquez Perez,Sports physiotherapy,Junior,4,ARN Barcelona Sants,true
+46,Ivan Moreno Fernandez,Orthopaedic / post-surgical,Junior,4,ARN Barcelona Sants,true
+47,Adrian Romero Ramos,Orthopaedic / post-surgical,Junior,4,ARN Barcelona Sants,true
+48,Antonio Gomez Diaz,Geriatric physiotherapy,Senior,4,ARN Barcelona Sants,true
+49,Sergio Rodriguez Gonzalez,Musculoskeletal physiotherapy,Junior,4,ARN Barcelona Sants,true
+50,Alba Torres Moreno,Musculoskeletal physiotherapy,Junior,4,ARN Barcelona Sants,true
+51,Daniel Diaz Gonzalez,Geriatric physiotherapy,Senior,4,ARN Barcelona Sants,true
+52,Javier Garcia Sanchez,Geriatric physiotherapy,Senior,4,ARN Barcelona Sants,true
+53,David Martinez Sanchez,Sports physiotherapy,Senior,4,ARN Barcelona Sants,true
+54,Elena Serrano Fernandez,Musculoskeletal physiotherapy,Senior,4,ARN Barcelona Sants,true
+55,Alba Vazquez Ortega,Orthopaedic / post-surgical,Junior,4,ARN Barcelona Sants,true
+56,Lucia Ortega Sanchez,Orthopaedic / post-surgical,Senior,4,ARN Barcelona Sants,true
+57,Javier Alvarez Ruiz,Sports physiotherapy,Junior,4,ARN Barcelona Sants,true
+58,Alejandro Serrano Ruiz,Sports physiotherapy,Junior,4,ARN Barcelona Sants,true
+59,Beatriz Serrano Ramos,Orthopaedic / post-surgical,Senior,4,ARN Barcelona Sants,true
+60,Sergio Gomez Ortega,Musculoskeletal physiotherapy,Lead,5,ARN Valencia,true
+61,Manuel Rodriguez Ortega,Musculoskeletal physiotherapy,Junior,5,ARN Valencia,true
+62,Sergio Lopez Torres,Sports physiotherapy,Lead,5,ARN Valencia,true
+63,Carlos Alvarez Rodriguez,Musculoskeletal physiotherapy,Junior,5,ARN Valencia,true
+64,Francisco Gomez Gil,Sports physiotherapy,Lead,5,ARN Valencia,true
+65,Carlos Perez Torres,Orthopaedic / post-surgical,Lead,5,ARN Valencia,true
+66,Pablo Gil Romero,Geriatric physiotherapy,Lead,5,ARN Valencia,true
+67,Rocio Navarro Torres,Musculoskeletal physiotherapy,Junior,5,ARN Valencia,true
+68,Ana Gonzalez Torres,Musculoskeletal physiotherapy,Senior,5,ARN Valencia,true
+69,Alba Vazquez Lopez,Musculoskeletal physiotherapy,Junior,5,ARN Valencia,true
+70,Lucia Vazquez Torres,Sports physiotherapy,Junior,5,ARN Valencia,true
+71,Beatriz Serrano Garcia,Geriatric physiotherapy,Lead,5,ARN Valencia,true
+72,Adrian Romero Vazquez,Orthopaedic / post-surgical,Lead,5,ARN Valencia,true
+73,Carlos Rodriguez Gonzalez,Sports physiotherapy,Junior,5,ARN Valencia,true
+74,Adrian Torres Perez,Neurological physiotherapy,Lead,5,ARN Valencia,true
+75,Miguel Garcia Lopez,Orthopaedic / post-surgical,Junior,6,ARN Sevilla,true
+76,Sara Diaz Diaz,Orthopaedic / post-surgical,Senior,6,ARN Sevilla,true
+77,Daniel Gonzalez Lopez,Sports physiotherapy,Lead,6,ARN Sevilla,true
+78,Nuria Martinez Garcia,Neurological physiotherapy,Junior,6,ARN Sevilla,true
+79,Francisco Perez Navarro,Orthopaedic / post-surgical,Lead,6,ARN Sevilla,true
+80,Cristina Ramos Sanchez,Orthopaedic / post-surgical,Junior,6,ARN Sevilla,true
+81,Maria Ruiz Serrano,Orthopaedic / post-surgical,Senior,6,ARN Sevilla,true
+82,Miguel Rodriguez Sanchez,Orthopaedic / post-surgical,Senior,6,ARN Sevilla,true
+83,Manuel Serrano Martinez,Musculoskeletal physiotherapy,Senior,6,ARN Sevilla,true
+84,Elena Navarro Sanchez,Sports physiotherapy,Senior,6,ARN Sevilla,true
+85,Pablo Perez Romero,Musculoskeletal physiotherapy,Lead,6,ARN Sevilla,true
+86,Rocio Serrano Gonzalez,Musculoskeletal physiotherapy,Junior,7,ARN Bilbao,true
+87,Alba Torres Rodriguez,Orthopaedic / post-surgical,Lead,7,ARN Bilbao,true
+88,Jose Navarro Fernandez,Musculoskeletal physiotherapy,Senior,7,ARN Bilbao,true
+89,Pablo Gonzalez Vazquez,Musculoskeletal physiotherapy,Junior,7,ARN Bilbao,true
+90,Pablo Navarro Castro,Orthopaedic / post-surgical,Senior,7,ARN Bilbao,true
+91,Ana Alvarez Rodriguez,Musculoskeletal physiotherapy,Lead,7,ARN Bilbao,true
+92,Jesus Diaz Moreno,Orthopaedic / post-surgical,Senior,7,ARN Bilbao,true
+93,Andrea Fernandez Diaz,Musculoskeletal physiotherapy,Lead,7,ARN Bilbao,true
+94,David Serrano Gil,Sports physiotherapy,Junior,7,ARN Bilbao,true
+95,Lucia Gomez Ruiz,Musculoskeletal physiotherapy,Lead,7,ARN Bilbao,true
+96,Laura Castro Navarro,Musculoskeletal physiotherapy,Junior,7,ARN Bilbao,true
+97,Sara Diaz Gomez,Neurological physiotherapy,Senior,7,ARN Bilbao,true
+98,Carmen Serrano Castro,Orthopaedic / post-surgical,Junior,7,ARN Bilbao,true
+99,David Lopez Rodriguez,Musculoskeletal physiotherapy,Senior,7,ARN Bilbao,true
+100,Sara Torres Ruiz,Geriatric physiotherapy,Senior,7,ARN Bilbao,true
+101,Andrea Sanchez Fernandez,Orthopaedic / post-surgical,Senior,8,ARN Malaga,true
+102,Maria Romero Torres,Orthopaedic / post-surgical,Senior,8,ARN Malaga,true
+103,Andrea Ruiz Torres,Musculoskeletal physiotherapy,Junior,8,ARN Malaga,true
+104,Ivan Fernandez Romero,Musculoskeletal physiotherapy,Junior,8,ARN Malaga,true
+105,Adrian Perez Lopez,Musculoskeletal physiotherapy,Senior,8,ARN Malaga,true
+106,Sara Ruiz Alvarez,Neurological physiotherapy,Lead,8,ARN Malaga,true
+107,Cristina Martinez Romero,Orthopaedic / post-surgical,Lead,8,ARN Malaga,true
+108,Alejandro Serrano Garcia,Neurological physiotherapy,Senior,8,ARN Malaga,true
+109,Jose Navarro Gil,Orthopaedic / post-surgical,Senior,8,ARN Malaga,true
+110,Carmen Navarro Moreno,Sports physiotherapy,Senior,8,ARN Malaga,true
+111,Javier Romero Navarro,Musculoskeletal physiotherapy,Senior,8,ARN Malaga,true
+112,Lucia Sanchez Alvarez,Geriatric physiotherapy,Junior,8,ARN Malaga,true
+113,Daniel Martinez Fernandez,Sports physiotherapy,Lead,8,ARN Malaga,true

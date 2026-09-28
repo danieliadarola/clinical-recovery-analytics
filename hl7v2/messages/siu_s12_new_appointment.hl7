@@ -1,0 +1,7 @@
+MSH|^~\&|ARN_SCHED|ARN|ANALYTICS|ARN|20250903101500||SIU^S12^SIU_S12|MSG00002|P|2.5
+SCH|50001^ARN|50001^ARN|||ROUTINE^Routine|PHYSIO^Physiotherapy evaluation|45^min|^^^20250908090000^20250908094500|||||||||||||||||booked
+PID|1||ARN101001^^^ARN^MR||Garcia Lopez^Ana||19790412|F
+RGS|1|A
+AIS|1|A|91251008^Physical therapy procedure^SCT
+AIL|1|A|EIXAMPLE^ARN Barcelona Eixample^^ARN
+AIP|1|A|pr-23^Fernandez Gil^Paula^^^PT|D^Physiotherapist

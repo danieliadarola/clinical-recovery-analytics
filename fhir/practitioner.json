@@ -1,0 +1,30 @@
+{
+  "resourceType": "Practitioner",
+  "id": "pr-23",
+  "identifier": [
+    {
+      "system": "http://atlas-rehab.example.org/license",
+      "value": "COL-10023"
+    }
+  ],
+  "active": true,
+  "name": [
+    { "use": "official", "family": "Fernandez Gil", "given": ["Paula"], "prefix": ["PT"] }
+  ],
+  "gender": "female",
+  "qualification": [
+    {
+      "code": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0360",
+            "code": "MD",
+            "display": "Degree in Physiotherapy"
+          }
+        ],
+        "text": "Degree in Physiotherapy"
+      },
+      "issuer": { "display": "Universitat de Barcelona" }
+    }
+  ]
+}
